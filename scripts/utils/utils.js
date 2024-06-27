@@ -11,10 +11,6 @@ export function saveData(name, data) {
 export function sendNewContacts(fun) {
   const xhr = new XMLHttpRequest();
 
-  xhr.addEventListener('error', (error) => {
-    alert(`We are sorry, an ${error} has occured`)
-  });
-
   xhr.addEventListener('load', () => {
     if (xhr.status >= 200 && xhr.status <= 300) {
       const advice = new Contact(xhr.response)
