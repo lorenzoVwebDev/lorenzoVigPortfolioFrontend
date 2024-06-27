@@ -13,9 +13,10 @@ export function sendNewContacts(fun) {
 
   xhr.addEventListener('load', () => {
     if (xhr.status >= 200 && xhr.status <= 300) {
-      const advice = new Contact(xhr.response)
-      advice.formCompiled()
-  
+/*       const advice = new Contact(xhr.response)
+      advice.formCompiled() */
+      alert(xhr.response);
+      
       fun()
     } else {
       alert(`Request failed with status: ${xhr.status} - ${xhr.statusText}`);
