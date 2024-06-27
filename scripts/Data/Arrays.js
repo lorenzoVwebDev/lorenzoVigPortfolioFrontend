@@ -16,7 +16,7 @@ export let portGallery = [
     header: 'Calculator',
     image: 'calculator.png',
     description: 'A useful calculator with a fancy CSS appereance.',
-    href: 'https://lorenzowebdevportbackend.glitch.me/projects/sendcalculator',
+    href: 'https://lorenzodevback.glitch.me/projects/sendcalculator',
     type: 'projects'
   }, {
     header: 'Tic-Tac-Toe-Game',
