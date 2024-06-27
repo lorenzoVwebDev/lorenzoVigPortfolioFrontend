@@ -16,15 +16,19 @@ export function sendNewContacts(fun) {
   });
 
   xhr.addEventListener('load', () => {
-    const advice = new Contact(xhr.response)
-    advice.formCompiled()
-
-    fun()
+    if (xhr.status >= 200 && xhr.status <= 300) {
+      const advice = new Contact(xhr.response)
+      advice.formCompiled()
+  
+      fun()
+    } else {
+      alert(`Request failed with status: ${xhr.status} - ${xhr.statusText}`);
+    }
   });
 
   const lastContacts = JSON.stringify(messages[messages.length - 1])
 
-  xhr.open('POST', 'https://192.168.1.101:443/contacts/sendcontacts/');
+  xhr.open('POST', 'https://192.168.1.101:3500/contacts/sendcontacts');
   xhr.setRequestHeader("Content-Type", "application/json")
   xhr.send(lastContacts);
 };
