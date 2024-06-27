@@ -24,7 +24,7 @@ export function sendNewContacts(fun) {
 
   const lastContacts = JSON.stringify(messages[messages.length - 1])
 
-  xhr.open('POST', 'https://192.168.1.101:3500/contacts/sendcontacts');
+  xhr.open('POST', 'https://lorenzovwebdev.github.io/contacts/sendcontacts');
   xhr.setRequestHeader("Content-Type", "application/json")
   xhr.send(lastContacts);
 };
