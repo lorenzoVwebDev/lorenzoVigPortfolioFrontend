@@ -28,4 +28,3 @@ export function sendNewContacts(fun) {
   xhr.setRequestHeader("Content-Type", "application/json")
   xhr.send(lastContacts);
 };
-
