@@ -15,7 +15,7 @@ function renderProjectsSection() {
           <p>
             ${project.description}
           </p>
-          <a href="${project.href === 'EXC&PP.html' ? project.href : project.href.split('//')[0] === 'http:' ? project.href : `./WebProjects/${project.href}`}" target="${project.href === 'EXC&PP.html' ? '' :'_blank'}"><i class='bx bx-link-external'></i></a>
+          <a href="${project.href === 'EXC&PP.html' ? project.href : project.href.split('//')[0] === 'https:' ? project.href : `./WebProjects/${project.href}`}" target="${project.href === 'EXC&PP.html' ? '' :'_blank'}"><i class='bx bx-link-external'></i></a>
         </div>
       </div>
     `
