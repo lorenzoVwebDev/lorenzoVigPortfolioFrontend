@@ -16,7 +16,7 @@ export let portGallery = [
     header: 'Calculator',
     image: 'calculator.png',
     description: 'A useful calculator with a fancy CSS appereance.',
-    href: 'https://lorenzodevback.glitch.me/projects/sendcalculator',
+    href: 'http://localhost:3000/projects/sendcalculator',
     type: 'projects'
   }, {
     header: 'Tic-Tac-Toe-Game',
@@ -28,7 +28,7 @@ export let portGallery = [
     header: 'Rock-Paper-Scissors',
     image: 'rock-paper-scissors-game.png',
     description: 'A useful calculator with a fancy CSS appereance.',
-    href: 'rock-paper-scissor/rock-paper-scissor-final.html',
+    href: 'http://localhost:3000/projects/rockpaperscissorhtml',
     type: 'games'
   }, {
     header: 'Microsoft 365 Templates',
