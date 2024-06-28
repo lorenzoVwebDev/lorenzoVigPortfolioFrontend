@@ -15,7 +15,7 @@ export function sendNewContacts(fun) {
     if (xhr.status >= 200 && xhr.status <= 300) {
 /*       const advice = new Contact(xhr.response)
       advice.formCompiled() */
-      alert(xhr.response);
+      alert('Thank you so much for contacting me! You\'ll be respondend within the next few days!');
       
       fun()
     } else {
