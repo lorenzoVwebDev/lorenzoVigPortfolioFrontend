@@ -67,7 +67,7 @@ export let templatesGallery = [
     type: 'excel'
   }, {
     header: 'Full stack interactive dashboard',
-    image: 'projectracker.png',
+    image: 'fullstack.png',
     description: 'Manage, track, and update all project details, and gain insight into how the project is progressing against your project plan with this project tracker template. Document project details, like tasks, status, priority, deadlines, budget, resource hours and more within the template.',
     href: 'https://lorenzodevback.glitch.me/templatesresume/Interactiveganttdashboard',
     type: 'excel'
