@@ -16,29 +16,29 @@ export let portGallery = [
     header: 'Calculator',
     image: 'calculator.png',
     description: 'A useful calculator with a fancy CSS appereance.',
-    href: 'http://localhost:3000/projects/sendcalculator',
+    href: 'https://lorenzodevback.glitch.me/projects/sendcalculator',
     type: 'projects'
   }, {
     header: 'Tic-Tac-Toe-Game',
     image: 'tic-tac-toe-game.png',
     description: 'A simple appearing Tic-Tac-Toe game with a interesting usage of a while loop behind.',
-    href: 'http://localhost:3000/projects/tictactoehtml',
+    href: 'https://lorenzodevback.glitch.me/projects/tictactoehtml',
     type: 'games'
   }, {
     header: 'Rock-Paper-Scissors',
     image: 'rock-paper-scissors-game.png',
     description: 'A useful calculator with a fancy CSS appereance.',
-    href: 'http://localhost:3000/projects/rockpaperscissorhtml',
+    href: 'https://lorenzodevback.glitch.me/projects/rockpaperscissorhtml',
     type: 'games'
   }, {
     header: 'This portfolio',
-    image: 'rock-paper-scissors-game.png',
+    image: 'portfolio.png',
     description: 'This portfolio has been entirely developed by. I have combined all my experience in terms of web development in order to create my own portfolio without relying on third parties websites. You can check its repository directly on Git by clicking over here.',
     href: 'https://github.com/lorenzoVwebDev/lorenzoVigPortfolioFrontend.git',
     type: 'projects'
   }, {
     header: 'My portfolio\'s backend',
-    image: 'rock-paper-scissors-game.png',
+    image: 'backend.png',
     description: 'I decided to build both my portolio and its own backend in order to become proficent in terms of full stack web development. You can check either on my Github profile. I\'ve used node.js, express.js and mongodb to create an efficient as well as simple web application which is able to manage requests/response in terms of actions such as visitor\'s contacts storing, links to older projects, resume and microsoft 365 templates deploying and other features.',
     href: 'https://github.com/lorenzoVwebDev/lor.git',
     type: 'projects'
@@ -55,39 +55,39 @@ export let portGallery = [
 export let templatesGallery = [
   {
     header: 'Simple interactive Dashboard',
-    image: 'ganttChart.png',
+    image: 'interactivedashboard.png',
     description: 'A Gantt chart is a commonly used graphical depiction of a project schedule. It s a type of bar chart showing the start and finish dates of a project s elements, such as resources, planning, and dependencies.',
-    href: 'http://localhost:3000/templatesresume/dashboard',
+    href: 'https://lorenzodevback.glitch.me/templatesresume/dashboard',
     type: 'excel'
   },  {
     header: 'Gannt Chart',
-    image: 'interactivedashboard.png',
+    image: 'ganttChart.png',
     description: 'An interactive dashboard is a business data management tool that allows users to interact with data by tracking, analyzing, monitoring, and displaying key business metrics.l',
-    href: 'http://localhost:3000/templatesresume/ganttchart',
+    href: 'https://lorenzodevback.glitch.me/templatesresume/ganttchart',
     type: 'excel'
   }, {
     header: 'Full stack interactive dashboard',
     image: 'projectracker.png',
     description: 'Manage, track, and update all project details, and gain insight into how the project is progressing against your project plan with this project tracker template. Document project details, like tasks, status, priority, deadlines, budget, resource hours and more within the template.',
-    href: 'http://localhost:3000/templatesresume/Interactiveganttdashboard',
+    href: 'https://lorenzodevback.glitch.me/templatesresume/Interactiveganttdashboard',
     type: 'excel'
   }, {
     header: 'Company Presentation',
-    image: 'projectracker.png',
+    image: 'company.png',
     description: 'Manage, track, and update all project details, and gain insight into how the project is progressing against your project plan with this project tracker template. Document project details, like tasks, status, priority, deadlines, budget, resource hours and more within the template.',
-    href: 'http://localhost:3000/templatesresume/company',
+    href: 'https://lorenzodevback.glitch.me/templatesresume/company',
     type: 'powerpoint'
   }, {
     header: 'Department Presentation',
-    image: 'projectracker.png',
+    image: 'department.png',
     description: 'Manage, track, and update all project details, and gain insight into how the project is progressing against your project plan with this project tracker template. Document project details, like tasks, status, priority, deadlines, budget, resource hours and more within the template.',
-    href: 'http://localhost:3000/templatesresume/department',
+    href: 'https://lorenzodevback.glitch.me/templatesresume/department',
     type: 'powerpoint'
   }, {
     header: 'Company business plan presentation',
-    image: 'projectracker.png',
+    image: 'business.png',
     description: 'Manage, track, and update all project details, and gain insight into how the project is progressing against your project plan with this project tracker template. Document project details, like tasks, status, priority, deadlines, budget, resource hours and more within the template.',
-    href: 'http://localhost:3000/templatesresume/business',
+    href: 'https://lorenzodevback.glitch.me/templatesresume/business',
     type: 'powerpoint'
   }  
 ]
