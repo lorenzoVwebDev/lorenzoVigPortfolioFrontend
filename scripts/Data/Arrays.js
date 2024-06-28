@@ -95,21 +95,24 @@ export let templatesGallery = [
 export const jobsDone = [
   {
     name: 'Web developer',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna diam porttitor mauris, quis sollicitudin sapien justo in libero. Fusce egestas elit eget lorem. Suspendisse potenti. Nullam ac odio non dui sagittis gravida.',
+    slightDescription: 'I decided to udertake this path on January 2024. Programming languages and more in general informatic have always interested me from many points of view such as being able to build you own application for business purposes or just for fun. Since January 2024, I\'ve been studing Web Development with work purposes....',
+    description: 'I decided to udertake this path on January 2024. Programming languages and more in general informatic have always interested me from many points of view such as being able to build you own application for business purposes or just for fun. Since January 2024, I\'ve been studing Web Development with work purposes. It was a very hard endeavour to purse, and throughout my learning journey, I have faced several issues that I have overcome all due to my perseverance and relying on many very good information source broadly renowed by the whole web developers\' community, such as MDN Web, w3Schools and frameworks/libraries/runtime docs (the useful ones, in my opinion). Although I\'ve used many other tools through my learning journey, I have to say that these formal information sources have enached my skills as well as my overall knowledge in terms of web development as no other one has done. I\'m thrilling to start working into this very fascinating new world. Let\'s code togheter.',
     image: '1.png',
     id: 'webdev',
     icon: 'bx-code-alt service-icon',
     href: './jobexperience.html'
   }, {
     name: 'Energetic Consuler',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna diam porttitor mauris, quis sollicitudin sapien justo in libero. Fusce egestas elit eget lorem. Suspendisse potenti. Nullam ac odio non dui sagittis gravida.',
+    slightDescription: 'I worked in the energy sector for about two years. This former experience allowed me to undertake many different paths in almost all the different departements related to the energy sector. Mainly, I worked in the SSD addressing issues department....',
+    description: 'I worked in the energy sector for about two years. This former experience allowed me to undertake many different paths in almost all the different departments related to the energy sector. Mainly, I worked in the SSD addressing issues department, which was related to addressing issues derived from mistakes during the bank periodic payment alignment. I was in charge as the team coordinator, and my main responsibility was to weekly report the data about revenues and outcomes in terms of SSD per client retrieved to the client\'s account managers. Anyway, my superiors put me in many other departments, such as the customer service mail department, SDI retrieval, selling, crossselling, upselling, and others.',
     image: '2.png',
     id: 'enerconsul',
     icon: 'bx-money service-icon',
     href: './jobexperience.html'
   }, {
     name: 'Music Producer',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna diam porttitor mauris, quis sollicitudin sapien justo in libero. Fusce egestas elit eget lorem. Suspendisse potenti. Nullam ac odio non dui sagittis gravida.',
+    slightDescription: 'My musician life, at a certain point, led me to become a music producer. I\'ve always had a really strong passion for composing almost any kind of genre. Although I\'ve been producing almost exclusevly for pop singers....',
+    description: 'My musical life, at a certain point, led me to become a music producer. I\'ve always had a really strong passion for composing almost any kind of genre. Although I\'ve been producing almost exclusively for pop singers, I have had many other experiences related to other genres in the past. However, I\'m openminded toward any kind of feature as well as work due to my broad range of tastes related to music. You can check my Instagram page to retrive as much information as you need to get a good idea of my skills. Anyway, I\'ve worked with many good musicians throughout my career, you can even check my Spotify account to listen to many of my productions as well as entire pieces. I\'m also a guitar player. Indeed, I graduated from Saint Louise College of Music about three years ago in Pop/Jazz guitar. I\'ve worked in various situations which have led me to become very versatile with my instrument. I really like to play almost everything. Check out my instagram page to retrieve better information about my music career. ',
     image: '3.png',
     id: 'music',
     icon: 'bxl-deezer service-icon',

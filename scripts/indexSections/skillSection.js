@@ -43,7 +43,7 @@ const skillSection = `
           <div class="skill-bar">
             <div class="info">
               <p>Node.js</p>
-              <p class="percentage">24%</p>
+              <p class="percentage">60%</p>
             </div>
             <div class="bar">
               <span class="node.js js-bar"></span>
