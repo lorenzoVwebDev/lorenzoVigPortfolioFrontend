@@ -15,7 +15,7 @@ templatesGallery.forEach((project) => {
         <p>
           ${project.description}
         </p>
-        <a href="excel&powerpointfiles/${project.href}" target=""><i class='bx bx-download'></i></i></a>
+        <a href="${project.href}" target=""><i class='bx bx-download'></i></i></a>
       </div>
     </div>
   </div>

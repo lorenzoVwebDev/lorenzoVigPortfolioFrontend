@@ -22,7 +22,7 @@ export let portGallery = [
     header: 'Tic-Tac-Toe-Game',
     image: 'tic-tac-toe-game.png',
     description: 'A simple appearing Tic-Tac-Toe game with a interesting usage of a while loop behind.',
-    href: 'tic-tac-toe/tic-tac-toe.html',
+    href: 'http://localhost:3000/projects/tictactoehtml',
     type: 'games'
   }, {
     header: 'Rock-Paper-Scissors',
@@ -30,6 +30,18 @@ export let portGallery = [
     description: 'A useful calculator with a fancy CSS appereance.',
     href: 'http://localhost:3000/projects/rockpaperscissorhtml',
     type: 'games'
+  }, {
+    header: 'This portfolio',
+    image: 'rock-paper-scissors-game.png',
+    description: 'This portfolio has been entirely developed by. I have combined all my experience in terms of web development in order to create my own portfolio without relying on third parties websites. You can check its repository directly on Git by clicking over here.',
+    href: 'https://github.com/lorenzoVwebDev/lorenzoVigPortfolioFrontend.git',
+    type: 'projects'
+  }, {
+    header: 'My portfolio\'s backend',
+    image: 'rock-paper-scissors-game.png',
+    description: 'I decided to build both my portolio and its own backend in order to become proficent in terms of full stack web development. You can check either on my Github profile. I\'ve used node.js, express.js and mongodb to create an efficient as well as simple web application which is able to manage requests/response in terms of actions such as visitor\'s contacts storing, links to older projects, resume and microsoft 365 templates deploying and other features.',
+    href: 'https://github.com/lorenzoVwebDev/lor.git',
+    type: 'projects'
   }, {
     header: 'Microsoft 365 Templates',
     image: 'microsoft.png',
@@ -42,24 +54,42 @@ export let portGallery = [
 
 export let templatesGallery = [
   {
-    header: 'Gantt Chart',
+    header: 'Simple interactive Dashboard',
     image: 'ganttChart.png',
     description: 'A Gantt chart is a commonly used graphical depiction of a project schedule. It s a type of bar chart showing the start and finish dates of a project s elements, such as resources, planning, and dependencies.',
-    href: 'ganttchart.xlsx',
+    href: 'http://localhost:3000/templatesresume/dashboard',
     type: 'excel'
   },  {
-    header: 'Interactive Dashboard',
+    header: 'Gannt Chart',
     image: 'interactivedashboard.png',
     description: 'An interactive dashboard is a business data management tool that allows users to interact with data by tracking, analyzing, monitoring, and displaying key business metrics.l',
-    href: 'interactivedashboard.xlsx',
+    href: 'http://localhost:3000/templatesresume/ganttchart',
     type: 'excel'
   }, {
-    header: 'Project Tracker',
+    header: 'Full stack interactive dashboard',
     image: 'projectracker.png',
     description: 'Manage, track, and update all project details, and gain insight into how the project is progressing against your project plan with this project tracker template. Document project details, like tasks, status, priority, deadlines, budget, resource hours and more within the template.',
-    href: 'projectracker.xlsx',
+    href: 'http://localhost:3000/templatesresume/Interactiveganttdashboard',
     type: 'excel'
-  }
+  }, {
+    header: 'Company Presentation',
+    image: 'projectracker.png',
+    description: 'Manage, track, and update all project details, and gain insight into how the project is progressing against your project plan with this project tracker template. Document project details, like tasks, status, priority, deadlines, budget, resource hours and more within the template.',
+    href: 'http://localhost:3000/templatesresume/company',
+    type: 'powerpoint'
+  }, {
+    header: 'Department Presentation',
+    image: 'projectracker.png',
+    description: 'Manage, track, and update all project details, and gain insight into how the project is progressing against your project plan with this project tracker template. Document project details, like tasks, status, priority, deadlines, budget, resource hours and more within the template.',
+    href: 'http://localhost:3000/templatesresume/department',
+    type: 'powerpoint'
+  }, {
+    header: 'Company business plan presentation',
+    image: 'projectracker.png',
+    description: 'Manage, track, and update all project details, and gain insight into how the project is progressing against your project plan with this project tracker template. Document project details, like tasks, status, priority, deadlines, budget, resource hours and more within the template.',
+    href: 'http://localhost:3000/templatesresume/business',
+    type: 'powerpoint'
+  }  
 ]
 
 export const jobsDone = [
