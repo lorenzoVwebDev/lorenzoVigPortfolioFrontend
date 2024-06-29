@@ -395,3 +395,76 @@ footer a i{
   font-size: 1rem;
   color: var(--second-bg-color);
 }
+
+@media(max-width: 1000px) {
+  #menu-icon {
+    display: block;
+  }
+
+  #menu-icon i {
+    transition: all .47s;
+  }
+
+  #menu-icon i.bx-x {
+    transform: rotate(-180deg);
+  }
+
+  .navList{
+    position: absolute;
+    top: -1000px;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    background-color: var(--bg-color);
+    padding: 20px;
+    transition: all .47s;
+
+  }
+
+  .navList a {
+    display: block;
+    padding-bottom: 5px;
+    font-size: 0.9rem;
+  }
+
+  .navList.open {
+    display: block;
+    top: 100%;
+  }
+
+  .home {
+    grid-template-columns: 1fr;
+    row-gap: 6rem;
+    place-items: center;
+  }
+
+  .home-image{
+    width: 70%;
+  }
+
+  .about {
+    flex-direction: column-reverse;
+    row-gap: 1rem;
+  }
+
+  .img-about img {
+    width: 100%;
+    max-height: none;
+    padding-bottom: 0px;
+    
+  }
+
+  .skill-main{
+    grid-template-columns: 1fr;
+  }
+
+  footer p {
+    font-size: .9rem;
+  }
+
+  .port-content {
+    font-size: 15rem;
+    row-gap: -5px;
+    line-height: 1.1;
+  }
+}
