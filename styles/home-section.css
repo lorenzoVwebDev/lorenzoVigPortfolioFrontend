@@ -84,6 +84,11 @@
   font-weight: 600;
 }
 
+.info-box a {
+  color: var(--hover-color);
+  cursor: pointer;
+}
+
 .btn-box {
   display: flex;
   justify-content: space-between;
