@@ -10,6 +10,9 @@ export function saveData(name, data) {
 
 export function sendNewContacts(fun) {
   const xhr = new XMLHttpRequest();
+  xhr.addEventListener('error', (error) => {
+   alert('We are sorry, an error has occured. We\'ll fix the problem as soon as possible!')
+  })
 
   xhr.addEventListener('load', () => {
     if (xhr.status >= 200 && xhr.status <= 300) {
