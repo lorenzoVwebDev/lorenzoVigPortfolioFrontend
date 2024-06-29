@@ -64,6 +64,7 @@ header {
   border-bottom-width: 0px;
   border-bottom-color: rgba(255,255,255, 0.2);
   border-bottom-style: solid;
+  transition: 0.4s;
 }
 
 .logo {
@@ -235,7 +236,7 @@ header .download {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 5rem;
+  height: 2rem;
   font-size: 1.8rem;
 }
 
@@ -268,3 +269,406 @@ footer a i{
 
 /* //adaptive */
 
+@media(max-width: 1100px) {
+
+  .portfolio .main-text {
+
+    font-size: 1.3rem;
+  }
+
+  .filter-buttons {
+    margin: 1.1rem;
+    margin-bottom: 1.7rem;
+    gap: 3rem;
+  }
+
+  .filter-buttons .btn {
+    font-size: 1.5rem;
+  }
+
+  .port-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: linear-gradient(rgba(0,0,0,.2), #12f7ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.2rem;
+    transition: 0.5s opacity ;
+    padding: 0 2rem
+  }
+
+  .port-content h3 {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  
+  
+  .port-content .description-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+  
+  .port-content .description-link p {
+    width: 80%;
+    font-size: medium;
+  }
+  
+  .port-content:hover {
+    opacity: 1;
+  }
+  
+  .port-box:hover .port-image img {
+    transform: scale(1.1)
+  }
+  
+  .port-content p{
+    font-size: 0.8rem;
+    margin: 5px 0 15px 0;
+  }
+  
+  .port-content .description-link  a{
+    background: #fff;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border: 2px solid var(--hover-color);
+    outline: 2px solid #fff;
+  
+  }
+  
+  .port-content a i{
+    font-size: 1.2rem;
+    color: var(--second-bg-color)
+  }
+}
+
+@media(max-width: 925px) {
+  .port-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: linear-gradient(rgba(0,0,0,.2), #12f7ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.1rem;
+    transition: 0.5s opacity ;
+    padding: 0 1rem
+  }
+
+  .port-content h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  
+  .port-content .description-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+  
+  .port-content .description-link p {
+    width: 80%;
+    font-size: medium;
+  }
+  
+  .port-content:hover {
+    opacity: 1;
+  }
+  
+  .port-box:hover .port-image img {
+    transform: scale(1.1)
+  }
+  
+  .port-content p{
+    font-size: 0.5rem;
+    margin: 5px 0 15px 0;
+  }
+  
+  .port-content .description-link  a{
+    background: #fff;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border: 2px solid var(--hover-color);
+    outline: 2px solid #fff;
+  
+  }
+  
+  .port-content a i{
+    font-size: 1.2rem;
+    color: var(--second-bg-color)
+  }
+}
+
+@media(max-width: 800px) {
+
+  .portfolio .main-text {
+
+    font-size: 1rem;
+  }
+
+  .filter-buttons {
+    margin: 1rem;
+    margin-bottom: 1.5rem;
+    gap: 3rem;
+  }
+
+  .filter-buttons .btn {
+    font-size: 1.2rem;
+  }
+
+  .header {
+    justify-content: center;
+  }
+
+  header .download {
+    display: none;
+  }
+
+  .port-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: linear-gradient(rgba(0,0,0,.2), #12f7ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: -2rem;
+    transition: 0.5s opacity ;
+    padding: -1rem 1rem
+  }
+
+  .port-content h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+  
+  
+  .port-content .description-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+  
+  .port-content .description-link p {
+    width: 80%;
+    font-size: medium;
+    font-size: 0.9rem;
+    margin: 5px 0 15px 0;
+  }
+  
+  .port-content:hover {
+    opacity: 1;
+  }
+  
+  .port-box:hover .port-image img {
+    transform: scale(1.1)
+  }
+  
+  .port-content .description-link  a{
+    background: #fff;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border: 2px solid var(--hover-color);
+    outline: 2px solid #fff;
+  
+  }
+  
+  .port-content a i{
+    font-size: 1.2rem;
+    color: var(--second-bg-color)
+  }
+}
+
+@media(max-width: 615px) {
+  .portfolio .main-text {
+    font-size: 0.8rem;
+  }
+
+  .filter-buttons {
+    margin: 0.8rem;
+    margin-bottom: 1.3rem;
+    gap: 2.8rem;
+  }
+
+  .filter-buttons .btn {
+    font-size: 1rem;
+  }
+
+  .port-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: linear-gradient(rgba(0,0,0,.2), #12f7ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0rem;
+    transition: 0.5s opacity ;
+    padding: -1rem 1rem
+  }
+
+  .port-content h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  
+  
+  .port-content .description-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+  
+  .port-content .description-link p {
+    width: 80%;
+    font-size: medium;
+    font-size: 0.7rem;
+    margin: 5px 0 15px 0;
+  }
+  
+  .port-content:hover {
+    opacity: 1;
+  }
+  
+  .port-box:hover .port-image img {
+    transform: scale(1.1)
+  }
+  
+  .port-content .description-link  a{
+    background: #fff;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid var(--hover-color);
+    outline: 2px solid #fff;
+  
+  }
+  
+  .port-content .description-link a i{
+    font-size: 1rem;
+    color: var(--second-bg-color)
+  }
+}
+
+@media(max-width: 490px) {
+  .portfolio .main-text {
+    font-size: 0.6rem;
+  }
+
+  .filter-buttons {
+    margin: 0.6rem;
+    margin-bottom: 1.1rem;
+    gap: 2.5rem;
+  }
+
+  .filter-buttons .btn {
+    font-size: 0.8rem;
+  }
+
+  .port-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: linear-gradient(rgba(0,0,0,.2), #12f7ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: -1rem;
+    transition: 0.5s opacity ;
+    padding: -1rem 1rem
+  }
+
+  .port-content h3 {
+    font-size: 0.8rem;
+    font-weight: 700;
+  }
+  
+  
+  .port-content .description-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+  
+  .port-content .description-link p {
+    width: 80%;
+    font-size: medium;
+    font-size: 0.65rem;
+    margin: 5px 0 15px 0;
+  }
+  
+  .port-content:hover {
+    opacity: 1;
+  }
+  
+  .port-box:hover .port-image img {
+    transform: scale(1.1)
+  }
+  
+  .port-content .description-link  a{
+    background: #fff;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid var(--hover-color);
+    outline: 2px solid #fff;
+  
+  }
+  
+  .port-content .description-link a i{
+    font-size: 1rem;
+    color: var(--second-bg-color)
+  }  
+}

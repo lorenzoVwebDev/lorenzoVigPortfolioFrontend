@@ -75,6 +75,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  column-gap: 50px;
   /* width: 400px;  */
   margin: 1rem 0 2rem;
 }
