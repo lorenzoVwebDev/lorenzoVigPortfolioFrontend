@@ -9,7 +9,7 @@ export let portGallery = [
   },  {
     header: 'Youtube Like Webpage',
     image: 'youtube-like-project.png',
-    description: 'An Amazon Like website that contains Javascript hard-coding such as DOM manipulation via MVC, libraries usage (dayjs), GET requests and POST requests to the backend.',
+    description: 'A Youtube like webpage builded using only HTML and CSS. Ref, ',
     href: 'YoutubeLikeWebsite/youtube.html',
     type: 'projects'
   }, {
@@ -33,13 +33,13 @@ export let portGallery = [
   }, {
     header: 'This portfolio',
     image: 'portfolio.png',
-    description: 'This portfolio has been entirely developed by. I have combined all my experience in terms of web development in order to create my own portfolio without relying on third parties websites. You can check its repository directly on Git by clicking over here.',
+    description: 'This portfolio has been entirely developed by. I have combined all my experience in terms of web development in order to create my own portfolio. You can check on git for more information about it....',
     href: 'https://github.com/lorenzoVwebDev/lorenzoVigPortfolioFrontend.git',
     type: 'projects'
   }, {
     header: 'My portfolio\'s backend',
     image: 'backend.png',
-    description: 'I decided to build both my portolio and its own backend in order to become proficent in terms of full stack web development. You can check either on my Github profile. I\'ve used node.js, express.js and mongodb to create an efficient as well as simple web application which is able to manage requests/response in terms of actions such as visitor\'s contacts storing, links to older projects, resume and microsoft 365 templates deploying and other features.',
+    description: 'I decided to build both my portolio and its own backend in order to become proficent in terms of full stack web development. You can check on git for more information about it....',
     href: 'https://github.com/lorenzoVwebDev/lor.git',
     type: 'projects'
   }, {

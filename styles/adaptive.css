@@ -153,13 +153,37 @@
   }
 
   footer p {
-    font-size: .9rem;
+    font-size: .6rem;
   }
-
+  
+  .filter-buttons .btn {
+    font-size: .8rem;
+  }
+  
   .port-content {
-    font-size: 15rem;
-    row-gap: -5px;
-    line-height: 1.1;
+  
+    line-height: 1;
+  }
+  
+  .port-content h3 {
+    font-size: 1rem;
+  
+  }
+  
+  .port-content p{
+    font-size: 0.7rem;
+  
+  }
+  
+  .port-content a{
+    font-size: 0rem;
+    width: 1.8rem;
+    height: 1.8rem;
+  
+  }
+  
+  .port-content a i{
+    font-size: 1.4rem;
   }
 }
 
@@ -170,12 +194,12 @@
   }
   
   .port-content h3 {
-    font-size: 1.1rem;
+    font-size: 1rem;
   
   }
   
   .port-content p{
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   
   }
   
@@ -234,6 +258,40 @@
   .home .home-content div.info-box span {
     font-size: 10px;
   }
+
+footer p {
+  font-size: .6rem;
+}
+
+.filter-buttons .btn {
+  font-size: .8rem;
+}
+
+.port-content {
+
+  line-height: 1;
+}
+
+.port-content h3 {
+  font-size: 0.9rem;
+
+}
+
+.port-content p{
+  font-size: 0.6rem;
+
+}
+
+.port-content a{
+  font-size: 0rem;
+  width: 1.8rem;
+  height: 1.8rem;
+
+}
+
+.port-content a i{
+  font-size: 1.4rem;
+}
   }
 
 
@@ -257,12 +315,12 @@
   }
 
   .port-content h3 {
-    font-size: 1.1rem;
+    font-size: 0.8rem;
 
   }
   
   .port-content p{
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   
   }
   
