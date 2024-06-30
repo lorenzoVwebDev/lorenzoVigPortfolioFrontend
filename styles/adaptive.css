@@ -406,11 +406,20 @@ footer p {
 
   .disclaimer {
     padding: 0 5px;
-    font-size: 0.55em;
+    font-size: 0.52em;
     height: 21px;
   }  
 
  }
+
+ @media(max-width: 350px) {
+  .disclaimer {
+    padding: 0 3px;
+    font-size: 0.49em;
+    height: 21px;
+  }  
+
+ } 
 
  /* /parallax/ */
 
