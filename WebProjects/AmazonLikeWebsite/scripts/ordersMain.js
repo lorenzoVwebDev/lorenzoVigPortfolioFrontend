@@ -8,6 +8,6 @@ async function getProducts() {
   renderOrdersPage();
 } 
 
-getProducts()
+getProducts();
 
 

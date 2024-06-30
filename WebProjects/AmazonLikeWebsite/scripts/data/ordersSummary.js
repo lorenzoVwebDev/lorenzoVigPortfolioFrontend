@@ -19,6 +19,7 @@ function saveToStorage() {
   localStorage.setItem('orders', JSON.stringify(orders))
 };
 
+
 export function renderOrdersPage() {
   let ordersHMTL = '';
   
@@ -54,6 +55,8 @@ export function renderOrdersPage() {
   })
 
   document.querySelector('.js-orders-grid').innerHTML = ordersHMTL;
+
+  updateCartQuantity();
 
   document.querySelectorAll('.js-buy-again-button').forEach((button) => {
     let autoPlaying = false;
@@ -131,6 +134,19 @@ function productsListHTML(order) {
   });  
 
   return productsHTML;
+};
+
+function updateCartQuantity() {
+
+  let cartQuantity = 0;
+
+  cart.forEach((cartItem) => {
+    cartQuantity += cartItem.quantity;
+  });
+
+  document.querySelector('.js-cart-quantity').innerHTML = cartQuantity;
+
+  return cartQuantity;
 };
 
 
