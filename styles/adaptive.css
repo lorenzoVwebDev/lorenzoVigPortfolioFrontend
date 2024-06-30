@@ -1,5 +1,25 @@
 /* break points */
 
+.portfolio {
+  position: relative;
+}
+
+.disclaimer {
+  background: red;
+  height: 60px;
+  position: absolute;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  text-align: center;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.portfolio .container .filter-buttons .btn:nth-child(2)::before{
+  background-color: var(--bg-color);
+}
+
 @media(max-width: 991px) {
   header,
   header.sticky{
@@ -87,6 +107,11 @@
     font-size: 1.4rem;
     color: var(--second-bg-color)
   } */
+
+  .disclaimer {
+    font-size: 0.95em;
+    height: 50px;
+  }
   
  }
 
@@ -186,6 +211,11 @@
   .port-content a i{
     font-size: 1.4rem;
   }
+
+  .disclaimer {
+    font-size: 0.8em;
+    height: 41px;
+  }  
 }
 
   @media(max-width: 650px) {
@@ -299,6 +329,11 @@ footer p {
   min-height: 100px;
   height: 80%;
 }
+
+.disclaimer {
+  font-size: 0.6em;
+  height: 30px;
+}  
 }
 
 
@@ -368,6 +403,12 @@ footer p {
     display: block;
     opacity: 0;
   }  */
+
+  .disclaimer {
+    padding: 0 5px;
+    font-size: 0.55em;
+    height: 21px;
+  }  
 
  }
 
