@@ -1,20 +1,39 @@
-//import { products, getProduct } from "./data/products.js";
-//import {formatCurrency} from "./utils/money.js";
-//import { cart, addtoCart, totQuantity, updateTotalQuantity } from "./data/cart.js";
-import {products, Product, Clothing} from "./data/products-class.js";
-import {cart} from "./data/cart-class.js";
+import './data/cart.js';
+import { cart, addtoCart } from './data/cart.js';
+import { products, loadProducts } from './data/products.js';
+import { formatCurrency } from "./utils/money.js";
 
-renderAmazonHomePage();
+loadProducts(renderProductsGrid);
 
-function renderAmazonHomePage() {
-  document.querySelector('.js-cart-quantity').innerHTML = Number(cart.cartItems.length);
-  cart.updateTotalQuantity();
+function renderProductsGrid() {
+  
+  updateCartQuantity();
 
-  let productsHTML= '';
+  let productsHTML = '';
 
-  products.forEach((product) => {
+  const url = new URL(window.location.href);
 
-    productsHTML += `
+  const search = url.searchParams.get('search');
+
+  let filteredProducts = products;
+
+  if (search) {
+    filteredProducts = products.filter(product => {
+      let searchKeywords;
+
+      product.keywords.forEach(keyword => {
+        searchKeywords = keyword.toLowerCase().includes(search.toLowerCase());
+      });
+
+      
+      
+      return product.name.toLowerCase().includes(search.toLowerCase()) || searchKeywords;
+    })
+  };
+
+  filteredProducts.forEach((product) => {
+
+      productsHTML += `
       <div class="product-container">
       <div class="product-image-container">
         <img class="product-image"
@@ -22,12 +41,12 @@ function renderAmazonHomePage() {
       </div>
 
       <div class="product-name limit-text-to-2-lines">
-        ${product.getStarsUrl()}
+        ${product.name}
       </div>
 
       <div class="product-rating-container">
         <img class="product-rating-stars"
-          src="images/ratings/rating-${(product.rating.stars)*10}.png">
+          src="${product.getStarsUrl()}">
         <div class="product-rating-count link-primary">
           ${product.rating.count}
         </div>
@@ -37,7 +56,7 @@ function renderAmazonHomePage() {
         $${product.getPrice()}
       </div>
 
-      <div class="product-quantity-container">
+      <div class="product-quantity-container js-product-quantity-container">
         <select class="js-quantity-selector-${product.id}">
           <option selected value="1">1</option>
           <option value="2">2</option>
@@ -52,38 +71,69 @@ function renderAmazonHomePage() {
         </select>
       </div>
 
-      <div class="product-spacer">
-        <div>
-        ${product.extraInfoHtml()}
-        </div>
-      </div>
+      ${product.extraInfoHTML()} 
 
-      <div class="added-to-cart">
+      <div class="product-spacer"></div>
+
+      <div class="added-to-cart js-added-to-cart-${product.id}">
         <img src="images/icons/checkmark.png">
         Added
       </div>
 
-      <button class="add-to-cart-button button-primary js-add-to-cart-button" data-product-id="${product.id}">
+      <button class="add-to-cart-button button-primary js-add-to-cart"
+      data-product-id="${product.id}"
+      >
         Add to Cart
       </button>
-    </div>
-    `
-
-    document.querySelector('.js-products-grid').innerHTML = productsHTML;
+      </div>
+    `;
   });
 
-  document.querySelectorAll('.js-add-to-cart-button').forEach((button) => {
-    button.addEventListener('click', () => {
-      const productId = button.dataset.productId
-      
-      cart.addtoCart(productId);
+  document.querySelector('.js-products-grid').innerHTML = productsHTML;
 
-      document.querySelector('.js-cart-quantity').innerHTML = Number(cart.cartItems.length);
+  function updateCartQuantity() {
+
+    let cartQuantity = 0;
+
+    cart.forEach((cartItem) => {
+      cartQuantity += cartItem.quantity;
+    });
+
+    document.querySelector('.js-cart-quantity').innerHTML = cartQuantity;
+
+    return cartQuantity;
+  };
+
+
+  let timeoutId = [];
+
+  function addedMessage(productId) {
+    const addedButton = document.querySelector(`.js-added-to-cart-${productId}`);
+
+    clearTimeout(timeoutId);
+
+    timeoutId.push(setTimeout(() => { addedButton.classList.remove('cssClass') }, 2000));
+
+    addedButton.classList.add('cssClass');
+  }
+
+  document.querySelectorAll('.js-add-to-cart').forEach((button) => {
+    button.addEventListener('click', () => {
+      
+  const { productId } = button.dataset
+
+      addedMessage(productId);
+
+      addtoCart(productId);
+
+      updateCartQuantity();  
     })
   });
-};
 
-/*
-${product instanceof Clothing ? `<a href="${product.sizeChartLink}">Size Chart</a>` : ''}
-*/
+  document.querySelector('.js-search-button').addEventListener('click', () => {
+    const search = document.querySelector('.js-search-bar').value;
+
+    window.location.href = `amazon.html?search=${search}`;
+  })
+};
 

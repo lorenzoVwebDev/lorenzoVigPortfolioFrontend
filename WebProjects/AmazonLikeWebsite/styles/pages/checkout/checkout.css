@@ -57,6 +57,10 @@
   padding-bottom: 5px;
 }
 
+.js-orders-grid {
+  display: none;
+}
+
 @media (max-width: 1000px) {
   .payment-summary {
     /* grid-row: 1 means this element will be placed into row
@@ -211,6 +215,7 @@
 }
 
 .quantity-input {
+  width: 30px;
   display: none;
 }
 
@@ -220,7 +225,6 @@
 
 .is-editing-quantity .quantity-input {
   display: initial;
-  width: 30px;
 }
 
 .is-editing-quantity .save-quantity-link {
