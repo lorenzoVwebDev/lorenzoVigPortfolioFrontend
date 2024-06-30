@@ -1,15 +1,47 @@
-export function getProduct(productId) {
-  let matchingItem;
-  
-  products.forEach((product) => {
-    if (productId === product.id) {
-      matchingItem = product;
-    }
-  });
+import { formatCurrency } from "../utils/money.js";
 
-  return matchingItem;
+export class Product {
+  id;
+  image;
+  name;
+  rating;
+  priceCents;
+
+  constructor(productDetails) {
+    this.id = productDetails.id;
+    this.image = productDetails.image;
+    this.name = productDetails.name;
+    this.rating = productDetails.rating;
+    this.priceCents = productDetails.priceCents;
+  };
+
+  getStarsUrl() {
+    return `images/ratings/rating-${this.rating.stars*10}`
+  }
+
+  getPrice() {
+    return `${formatCurrency(this.priceCents)}`
+  }
+
+  extraInfoHtml() {
+    return ''
+  }
+};
+
+export class Clothing extends Product {
+  sizeChartLink;
+
+  constructor(productDetails) {
+    super(productDetails);
+    this.sizeChartLink = productDetails.sizeChartLink
+  }
+
+  extraInfoHtml() {
+    return `
+      <a href="${this.sizeChartLink}">Size Chart</a>
+    `
+  }
 }
-
 
 
 export const products = [
@@ -671,4 +703,15 @@ export const products = [
       "mens"
     ]
   }
-];
+].map((productDetails) => {
+  if (productDetails.type === "clothing") {
+    //console.log(productDetails)
+    return new Clothing(productDetails);
+  } else {
+    return new Product(productDetails)
+  }
+});
+
+
+
+//continue from page 311
