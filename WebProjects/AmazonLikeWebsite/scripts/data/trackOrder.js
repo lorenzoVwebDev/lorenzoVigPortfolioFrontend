@@ -2,6 +2,7 @@ import {getProduct, loadProductsFetch, products} from './products.js';
 import {orders} from './ordersSummary.js';
 import dayjs from 'https://unpkg.com/dayjs@1.11.10/esm/index.js';
 import {formatCurrency} from '../utils/money.js';
+import { cart } from './cart.js';
 
 export function loadPage() {
   document.addEventListener('DOMContentLoaded', async () => {
@@ -94,10 +95,29 @@ export function loadPage() {
       );
       const orderTrackingPercentage = ((currentTime - orderTime)/(deliveryTime-orderTime))*100;
 
+      console.log(currentTime - orderTime)
+
       return (Math.round(orderTrackingPercentage)).toFixed(0)
     };
   });
+
+  updateCartQuantity();
 };
+
+
+function updateCartQuantity() {
+
+  let cartQuantity = 0;
+
+  cart.forEach((cartItem) => {
+    cartQuantity += cartItem.quantity;
+  });
+
+  document.querySelector('.js-cart-quantity').innerHTML = cartQuantity;
+
+  return cartQuantity;
+};
+
 
 
 
