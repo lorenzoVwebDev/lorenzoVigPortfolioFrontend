@@ -20,6 +20,42 @@
   background-color: var(--bg-color);
 }
 
+@media(max-width: 1200px) {
+  .portfolio-gallery div:nth-child(1) p{
+    font-size: 9px;
+  }
+
+  .portfolio-gallery div:nth-child(4) p{
+    font-size: 9px;
+  }
+  
+  .portfolio-gallery div:nth-child(6) p{
+    font-size: 9px;
+  }
+
+  .portfolio-gallery div:nth-child(7) p{
+    font-size: 9px;
+  }
+  
+  .portfolio-gallery div:nth-child(1) h3{
+    font-size: 13px;
+  }
+
+  .portfolio-gallery div:nth-child(4) h3{
+    font-size: 13px;
+  }
+
+  .portfolio-gallery div:nth-child(6) h3{
+    font-size: 13px;
+  }
+
+  .portfolio-gallery div:nth-child(7) h3{
+    font-size: 13px;
+  }
+}
+
+
+
 @media(max-width: 991px) {
   header,
   header.sticky{
@@ -112,6 +148,23 @@
     font-size: 0.95em;
     height: 50px;
   }
+
+  .portfolio-gallery div:nth-child(2) p{
+    font-size: 9px;
+  }
+
+  .portfolio-gallery div:nth-child(5) p{
+    font-size: 9px;
+  }
+
+  .portfolio-gallery div:nth-child(2) h3{
+    font-size: 13px;
+  }
+
+  .portfolio-gallery div:nth-child(5) h3{
+    font-size: 13px;
+  }
+  
   
  }
 
@@ -338,7 +391,7 @@ footer p {
 
 
 
- @media(max-width: 500px) {
+ @media(max-width: 510px) {
   html {
     font-size: 80%;
   }
@@ -410,6 +463,85 @@ footer p {
     height: 21px;
   }  
 
+  .portfolio-gallery div:nth-child(1) p{
+    font-size: 9px;
+  }
+
+  .portfolio-gallery div:nth-child(1) h3{
+    font-size: 9px;
+  }
+
+  .portfolio-gallery div:nth-child(4) p{
+    font-size: 9,5px;
+  }
+
+  .portfolio-gallery div:nth-child(4) h3{
+    font-size: 15px;
+  }
+  .portfolio-gallery div:nth-child(5) p{
+    font-size: 9,5px;
+  }
+
+  .portfolio-gallery div:nth-child(5) h3{
+    font-size: 15px;
+  }
+
+  .portfolio-gallery div:nth-child(6) p{
+    font-size: 9,5px;
+  }
+
+  .portfolio-gallery div:nth-child(6) h3{
+    font-size: 15px;
+  }
+
+  .portfolio-gallery div:nth-child(7) p{
+    font-size: 9,5px;
+  }
+
+  .portfolio-gallery div:nth-child(7) h3{
+    font-size: 15px;
+  }
+ }
+
+ @media(max-width: 450px) {
+  .portfolio-gallery div:nth-child(1) p{
+    font-size: 7px;
+  }
+
+  .portfolio-gallery div:nth-child(1) h3{
+    font-size: 11px;
+  }
+
+  .portfolio-gallery div:nth-child(4) p{
+    font-size: 7px;
+  }
+
+  .portfolio-gallery div:nth-child(4) h3{
+    font-size: 11px;
+  }
+  .portfolio-gallery div:nth-child(5) p{
+    font-size: 7px;
+  }
+
+  .portfolio-gallery div:nth-child(5) h3{
+    font-size: 11px;
+  }
+
+  .portfolio-gallery div:nth-child(6) p{
+    font-size: 7px;
+  }
+
+  .portfolio-gallery div:nth-child(6) h3{
+    font-size: 11px;
+  }
+
+  .portfolio-gallery div:nth-child(7) p{
+    font-size: 7px;
+  }
+
+  .portfolio-gallery div:nth-child(7) h3{
+    font-size: 11px;
+  }
  }
 
  @media(max-width: 350px) {
