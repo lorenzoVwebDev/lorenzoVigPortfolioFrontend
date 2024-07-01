@@ -40,7 +40,7 @@ export let portGallery = [
     header: 'My portfolio\'s backend',
     image: 'backend.png',
     description: 'I decided to build both my portolio and its own backend in order to become proficient in terms of full stack web development. You can check on Git for more information about it....',
-    href: 'https://github.com/lorenzoVwebDev/lor.git',
+    href: 'https://github.com/lorenzoVwebDev/PortfolioBackend.git',
     type: 'projects'
   }, {
     header: 'Microsoft 365 Templates',
