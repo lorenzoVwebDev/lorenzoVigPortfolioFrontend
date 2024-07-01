@@ -3,41 +3,41 @@ export let portGallery = [
   {
     header: 'Amazon Like Website',
     image: 'amazon-like-project.png',
-    description: 'An Amazon-like website that contains Javascript hard-coding such as DOM manipulation via MVC, libraries usage (dayjs), GET requests and POST requests to the backend.',
+    description: 'An Amazon-like website that contains Javascript hard-coding such as DOM manipulation via MVC, libraries usage (dayjs), GET requests and POST requests to the backend. You can find its code on the "My porfolio FRONT-end repository." project',
     href: 'AmazonLikeWebsite/amazon.html',
     type: 'projects'
   },  {
     header: 'Youtube Like Webpage',
     image: 'youtube-like-project.png',
-    description: 'A Youtube-like webpage built using only HTML and CSS.',
+    description: 'A Youtube-like webpage built using only HTML and CSS. You can find its code on the "My porfolio FRONT-end repository" project.',
     href: 'YoutubeLikeWebsite/youtube.html',
     type: 'projects'
   }, {
     header: 'Calculator',
     image: 'calculator.png',
-    description: 'A useful calculator with a fancy CSS appearance.',
+    description: 'A useful calculator with a fancy CSS appearance. You can find its code on the "My porfolio BACK-end repository" project.',
     href: 'https://lorenzodevback.glitch.me/projects/sendcalculator',
     type: 'projects'
   }, {
     header: 'Tic-Tac-Toe-Game',
     image: 'tic-tac-toe-game.png',
-    description: 'A simple appearing Tic-Tac-Toe game with an interesting usage of a while loop behind.',
+    description: 'A simple appearing Tic-Tac-Toe game with an interesting usage of a while loop behind. A useful calculator with a fancy CSS appearance. You can find its code on the "My porfolio BACK-end repository" project.',
     href: 'https://lorenzodevback.glitch.me/projects/tictactoehtml',
     type: 'games'
   }, {
     header: 'Rock-Paper-Scissors',
     image: 'rock-paper-scissors-game.png',
-    description: 'Rock, paper, and scissor game. One of my first projects. ',
+    description: 'Rock, paper, and scissor game. One of my first projects. A useful calculator with a fancy CSS appearance. You can find its code on the "My porfolio BACK-end repository" project.',
     href: 'https://lorenzodevback.glitch.me/projects/rockpaperscissorhtml',
     type: 'games'
   }, {
-    header: 'This portfolio',
+    header: 'My portfolio front-end repository',
     image: 'portfolio.png',
     description: 'This portfolio has been entirely developed by me. I have combined all my experience in terms of web development in order to create my own portfolio. You can check on Git for more information about it....',
     href: 'https://github.com/lorenzoVwebDev/lorenzoVigPortfolioFrontend.git',
     type: 'projects'
   }, {
-    header: 'My portfolio\'s backend',
+    header: 'My portfolio back-end repository',
     image: 'backend.png',
     description: 'I decided to build both my portolio and its own backend in order to become proficient in terms of full stack web development. You can check on Git for more information about it....',
     href: 'https://github.com/lorenzoVwebDev/PortfolioBackend.git',
