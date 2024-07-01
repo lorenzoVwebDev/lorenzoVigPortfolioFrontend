@@ -27,7 +27,7 @@ export let portGallery = [
   }, {
     header: 'Rock-Paper-Scissors',
     image: 'rock-paper-scissors-game.png',
-    description: 'A useful calculator with a fancy CSS appearance.',
+    description: 'Rock, paper, and scissor game. One of my first projects. ',
     href: 'https://lorenzodevback.glitch.me/projects/rockpaperscissorhtml',
     type: 'games'
   }, {
