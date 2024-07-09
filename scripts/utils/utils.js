@@ -10,6 +10,7 @@ export function saveData(name, data) {
 
 export function sendNewContacts(fun) {
   const xhr = new XMLHttpRequest();
+
   xhr.addEventListener('error', (error) => {
    alert('We are sorry, an error has occured. We\'ll fix the problem as soon as possible!')
   })
@@ -22,7 +23,7 @@ export function sendNewContacts(fun) {
       
       fun()
     } else {
-      alert(`Request failed with status: ${xhr.status} - ${xhr.statusText}`);
+      alert(`Request failed with status: ${xhr.status} - ${xhr.response}`);
     }
   });
 
