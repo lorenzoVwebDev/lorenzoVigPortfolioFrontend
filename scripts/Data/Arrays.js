@@ -31,6 +31,12 @@ export let portGallery = [
     href: 'https://lorenzodevback.glitch.me/projects/rockpaperscissorhtml',
     type: 'games'
   }, {
+    header: 'To do list',
+    image: 'todolist.png',
+    description: 'A simple and useful to do list developed with react.',
+    href: 'hhttps://lorenzodevback.glitch.me/projects/todolist',
+    type: 'games'
+  }, {
     header: 'My portfolio front-end repository',
     image: 'portfolio.png',
     description: 'This portfolio has been entirely developed by me. I have combined all my experience in terms of web development in order to create my own portfolio. You can check on Git for more information about it....',
