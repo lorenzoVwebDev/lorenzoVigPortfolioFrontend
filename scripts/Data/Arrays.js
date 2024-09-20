@@ -35,7 +35,7 @@ export let portGallery = [
     image: 'todolist.png',
     description: 'A simple and useful to do list developed with react.',
     href: 'https://lorenzodevback.glitch.me/projects/todolist',
-    type: 'games'
+    type: 'reactprojects'
   }, {
     header: 'My portfolio front-end repository',
     image: 'portfolio.png',

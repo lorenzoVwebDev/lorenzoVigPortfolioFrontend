@@ -30,5 +30,5 @@ console.log(Array(menu))
 window.addEventListener('scroll', () => {
   menu.classList.remove('bx-x')
 navlist.classList.remove('open')
-})
+});
 
