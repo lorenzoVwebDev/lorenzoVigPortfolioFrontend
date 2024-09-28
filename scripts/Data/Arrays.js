@@ -1,4 +1,5 @@
-
+const backEndUrl = 'https://lorenzodevback.glitch.me/';
+const localHost = 'http://localhost:3000/';
 export let portGallery = [
   {
     header: 'Amazon Like Website',
@@ -16,25 +17,25 @@ export let portGallery = [
     header: 'Calculator',
     image: 'calculator.png',
     description: 'A useful calculator with a fancy CSS appearance. You can find its code on the "My porfolio BACK-end repository" project.',
-    href: 'https://lorenzodevback.glitch.me/projects/sendcalculator',
+    href: `${backEndUrl}projects/sendcalculator/`,
     type: 'projects'
   }, {
     header: 'Tic-Tac-Toe-Game',
     image: 'tic-tac-toe-game.png',
     description: 'A simple appearing Tic-Tac-Toe game with an interesting usage of a while loop behind. A useful calculator with a fancy CSS appearance. You can find its code on the "My porfolio BACK-end repository" project.',
-    href: 'https://lorenzodevback.glitch.me/projects/tictactoehtml',
+    href: `${backEndUrl}projects/tictactoehtml`,
     type: 'games'
   }, {
     header: 'Rock-Paper-Scissors',
     image: 'rock-paper-scissors-game.png',
     description: 'Rock, paper, and scissor game. One of my first projects. A useful calculator with a fancy CSS appearance. You can find its code on the "My porfolio BACK-end repository" project.',
-    href: 'https://lorenzodevback.glitch.me/projects/rockpaperscissorhtml',
+    href: `${backEndUrl}projects/rockpaperscissorhtml`,
     type: 'games'
   }, {
     header: 'To do list',
     image: 'todolist.png',
     description: 'A simple and useful to do list developed with react.',
-    href: 'https://lorenzodevback.glitch.me/projects/todolist',
+    href: `${backEndUrl}projects/todolist/`,
     type: 'reactprojects'
   }, {
     header: 'My portfolio front-end repository',
@@ -62,37 +63,37 @@ export let templatesGallery = [
     header: 'Simple interactive Dashboard',
     image: 'interactivedashboard.png',
     description: 'A Gantt chart is a commonly used graphical depiction of a project schedule. It s a type of bar chart showing the start and finish dates of a project s elements, such as resources, planning, and dependencies.',
-    href: 'https://lorenzodevback.glitch.me/templatesresume/dashboard',
+    href: `${backEndUrl}templatesresume/dashboard`,
     type: 'excel'
   },  {
     header: 'Gannt Chart',
     image: 'ganttChart.png',
     description: 'An interactive dashboard is a business data management tool that allows users to interact with data by tracking, analyzing, monitoring, and displaying key business metrics.l',
-    href: 'https://lorenzodevback.glitch.me/templatesresume/ganttchart',
+    href: `${backEndUrl}templatesresume/ganttchart`,
     type: 'excel'
   }, {
     header: 'Full stack interactive dashboard',
     image: 'fullstack.png',
     description: 'Manage, track, and update all project details, and gain insight into how the project is progressing against your project plan with this project tracker template.',
-    href: 'https://lorenzodevback.glitch.me/templatesresume/Interactiveganttdashboard',
+    href: `${backEndUrl}templatesresume/Interactiveganttdashboard`,
     type: 'excel'
   }, {
     header: 'Company Presentation',
     image: 'company.png',
     description: 'A company presentation that has been enriched with morph transitions.',
-    href: 'https://lorenzodevback.glitch.me/templatesresume/company',
+    href: `${backEndUrl}templatesresume/company`,
     type: 'powerpoint'
   }, {
     header: 'Department Presentation',
     image: 'department.png',
     description: 'A scroll presentation that is very useful to rapidly show you company\'s departments.',
-    href: 'https://lorenzodevback.glitch.me/templatesresume/department',
+    href: `${backEndUrl}templatesresume/department`,
     type: 'powerpoint'
   }, {
     header: 'Company business plan presentation',
     image: 'business.png',
     description: 'A fast-forward, to the point presentation with the purpose of showcase your company\'s future goals',
-    href: 'https://lorenzodevback.glitch.me/templatesresume/business',
+    href: `${backEndUrl}templatesresume/business`,
     type: 'powerpoint'
   }  
 ];
