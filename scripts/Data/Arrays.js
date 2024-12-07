@@ -55,6 +55,12 @@ export let portGallery = [
     description: 'Watch my microsoft 365 templates',
     href: 'EXC&PP.html',
     type: 'excelpowerpoint'
+  }, {
+    header: 'dogCreationEngine',
+    image: 'microsoft.png',
+    description: 'A dog creation engine involving several aspects of developing with php',
+    href: `${backEndUrl}projects/dogCreationEngine`,
+    type: 'excelpowerpoint'
   },
 ];
 
