@@ -1,5 +1,6 @@
 const backEndUrl = 'https://lorenzodevback.glitch.me/';
 const localHost = 'http://localhost:3000/';
+const awardSpaceUrl = 'http://lorenzovdev.atwebpages.com/';
 export let portGallery = [
   {
     header: 'Amazon Like Website',
@@ -59,7 +60,7 @@ export let portGallery = [
     header: 'dogCreationEngine',
     image: 'microsoft.png',
     description: 'A dog creation engine involving several aspects of developing with php',
-    href: `${backEndUrl}projects/dogCreationEngine`,
+    href: `${awardSpaceUrl}dogApplication/interface-tier/lab.html`,
     type: 'excelpowerpoint'
   },
 ];
