@@ -29,7 +29,7 @@ export function sendNewContacts(fun) {
 
   const lastContacts = JSON.stringify(messages[messages.length - 1])
 
-  xhr.open('POST', 'https://lorenzodevback.glitch.me/contacts/sendcontacts');
+  xhr.open('POST', 'http://172.232.217.98/contacts/sendcontacts');
   xhr.setRequestHeader("Content-Type", "application/json")
   xhr.send(lastContacts);
 };
