@@ -1,4 +1,6 @@
 import { Contact, messages } from "../Data/contactSectiondata.js";
+const backEndUrl = 'http://172.232.217.98/';
+const backEndUrlNoProxy = 'http://172.232.217.98:3000/';
 
 export function reloadPage() {
     window.location.reload()
@@ -29,7 +31,7 @@ export function sendNewContacts(fun) {
 
   const lastContacts = JSON.stringify(messages[messages.length - 1])
 
-  xhr.open('POST', 'http://172.232.217.98/contacts/sendcontacts');
+  xhr.open('POST', `${backEndUrlNoProxy}contacts/sendcontacts`);
   xhr.setRequestHeader("Content-Type", "application/json")
   xhr.send(lastContacts);
 };
