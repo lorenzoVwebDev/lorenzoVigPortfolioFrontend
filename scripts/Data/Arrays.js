@@ -1,4 +1,5 @@
 const backEndUrl = 'http://172.232.217.98/';
+const backEndUrlNoProxy = '172.232.217.98:3000/';
 const localHost = 'http://localhost:3000/';
 const awardSpaceUrl = 'http://lorenzovdev.atwebpages.com/';
 export let portGallery = [
@@ -18,7 +19,7 @@ export let portGallery = [
     header: 'Calculator',
     image: 'calculator.png',
     description: 'A useful calculator with a fancy CSS appearance. You can find its code on the "My porfolio BACK-end repository" project.',
-    href: `${backEndUrl}projects/sendcalculator/`,
+    href: `${backEndUrlNoProxy}projects/sendcalculator/`,
     type: 'projects'
   }, {
     header: 'Tic-Tac-Toe-Game',
