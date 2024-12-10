@@ -1,5 +1,5 @@
 const backEndUrl = 'http://172.232.217.98/';
-const backEndUrlNoProxy = '172.232.217.98:3000/';
+const backEndUrlNoProxy = 'http://172.232.217.98:3000/';
 const localHost = 'http://localhost:3000/';
 const awardSpaceUrl = 'http://lorenzovdev.atwebpages.com/';
 export let portGallery = [
