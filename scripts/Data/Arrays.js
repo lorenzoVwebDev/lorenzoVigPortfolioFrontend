@@ -1,4 +1,4 @@
-const backEndUrl = 'https://backend.lorenzo-viganego/';
+const backEndUrl = 'https://backend.lorenzo-viganego.com/';
 const backEndUrlNoProxy = 'http://172.232.217.98:3000/';
 const localHost = 'http://localhost:3000/';
 const awardSpaceUrl = 'http://lorenzovdev.atwebpages.com/';

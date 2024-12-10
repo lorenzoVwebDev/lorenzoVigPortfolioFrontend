@@ -1,5 +1,5 @@
 import { Contact, messages } from "../Data/contactSectiondata.js";
-const backEndUrl = 'https://backend.lorenzo-viganego/';
+const backEndUrl = 'https://backend.lorenzo-viganego.com/';
 const backEndUrlNoProxy = 'http://172.232.217.98:3000/';
 
 export function reloadPage() {
