@@ -1,5 +1,5 @@
 import { Contact, messages } from "../Data/contactSectiondata.js";
-const backEndUrl = 'http://172.232.217.98/';
+const backEndUrl = 'https://backend.lorenzo-viganego/';
 const backEndUrlNoProxy = 'http://172.232.217.98:3000/';
 
 export function reloadPage() {
@@ -31,7 +31,7 @@ export function sendNewContacts(fun) {
 
   const lastContacts = JSON.stringify(messages[messages.length - 1])
 
-  xhr.open('POST', `${backEndUrlNoProxy}contacts/sendcontacts`);
+  xhr.open('POST', `${backEndUrl}contacts/sendcontacts`);
   xhr.setRequestHeader("Content-Type", "application/json")
   xhr.send(lastContacts);
 };
