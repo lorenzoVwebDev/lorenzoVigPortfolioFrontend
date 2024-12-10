@@ -19,7 +19,7 @@ export let portGallery = [
     header: 'Calculator',
     image: 'calculator.png',
     description: 'A useful calculator with a fancy CSS appearance. You can find its code on the "My porfolio BACK-end repository" project.',
-    href: `${backEndUrlNoProxy}projects/sendcalculator/`,
+    href: `${backEndUrl}projects/sendcalculator/`,
     type: 'projects'
   }, {
     header: 'Tic-Tac-Toe-Game',
