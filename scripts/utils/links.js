@@ -53,7 +53,7 @@ export function renderProjects(hrefType) {
         getProjects((response) => {
           responseArray.push(response);
           //console.log(responseArray);
-          console.log(responseArray)
+          //console.log(responseArray)
           resolve(responseArray)
         }, plainUrlClean+=endpoints[1])
       }, plainUrl+=endpoints[0])
@@ -107,7 +107,7 @@ async function  renderProject(responseArray) {
 
     // adding urlsForJS to main js
     const script = urlsForJS + responseArray[3];
-    console.log(script);
+    //console.log(script);
     const js = project.document.querySelector('.js');
     js.innerHTML = script;
     //rockImageCreation
