@@ -42,7 +42,7 @@ function renderProjectsSection() {
     button.addEventListener('click', () => {
       const newUrl = window.location.href.replace('#portfolio', '')
       console.log(newUrl)
-      window.location.href = newUrl + 'render/render.html'+`?href=${encodeURI(hrefType)}`
+      window.location.href = newUrl + 'render/render.html'+`?href=${encodeURIComponent(hrefType)}`
     
     })
   })
