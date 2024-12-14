@@ -40,7 +40,10 @@ function renderProjectsSection() {
   document.querySelectorAll('.project-link').forEach(button => {
     const { hrefType } = button.dataset;
     button.addEventListener('click', () => {
-      renderProjects(hrefType)
+      const newUrl = window.location.href.replace('index.html#portfolio', '')
+      console.log(newUrl)
+      window.location.href = newUrl + 'render/render.html'+`?href=${encodeURI(hrefType)}`
+
     })
   })
 }  

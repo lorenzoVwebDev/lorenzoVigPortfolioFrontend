@@ -3,12 +3,9 @@ const backEndUrlNoProxy = 'http://172.232.217.98:3000/';
 const localHost = 'http://localhost:3000/';
 const awardSpaceUrl = 'http://lorenzovdev.atwebpages.com/';
 
-export function renderProjects(hrefType) {
-  window.location.href+=`?href=${encodeURI(hrefType)}`;
-  const url = window.location.href;
-  const cleanUrl = url.replace('#portfolio', ''); 
-  const urlParams = new URL(cleanUrl);
-  //console.log(urlParams)
+export function renderProjects() {
+  const url = window.location.href; 
+  const urlParams = new URL(url);
   const paramObject =Object.fromEntries(urlParams.searchParams.entries());
   let plainUrl = Object.entries(paramObject)[0][1];
 
@@ -17,8 +14,8 @@ export function renderProjects(hrefType) {
 
     xhr.addEventListener('error', (error)=> {
       alert('We are sorry: projects are currently unavailable');
-      urlParams.searchParams.delete('href')
-      window.location.href = urlParams.href + '#portfolio'; 
+/*       urlParams.searchParams.delete('href')
+      window.location.href = urlParams.href + '#portfolio';  */
     })
 
     xhr.addEventListener('load', () => {
@@ -27,8 +24,8 @@ export function renderProjects(hrefType) {
         response(xhr.response, header);
       } else {
         alert('We are sorry: projects are currently unavailable');
-        urlParams.searchParams.delete('href')
-        window.location.href = urlParams.href + '#portfolio'; 
+/*         urlParams.searchParams.delete('href')
+        window.location.href = urlParams.href + '#portfolio';  */
       } 
   })
 
@@ -61,14 +58,14 @@ export function renderProjects(hrefType) {
   }).then((responseArray) => {
     renderProject(responseArray)
   }).finally(() => {
-    urlParams.searchParams.delete('href')
-    window.location.href = urlParams.href + '#portfolio'; 
+/*     urlParams.searchParams.delete('href')
+    window.location.href = urlParams.href + '#portfolio';  */
   })
 }
 
 async function  renderProject(responseArray) {
     if (responseArray[0]!= 'including-images') {
-    const project = window.open('', '_blank');
+    const project = window.open('', '_self');
     project.document.write(responseArray[1]);
     const css = project.document.querySelector('.css');
     //console.log(responseArray[2])
@@ -76,7 +73,7 @@ async function  renderProject(responseArray) {
     const js = project.document.querySelector('.js')
     js.innerHTML = responseArray[3]
     //console.log(document)
-    document.close();
+    project.document.close();
 
   } else {
     
@@ -98,11 +95,11 @@ async function  renderProject(responseArray) {
       const scissorsImageURL = "${scissorsImageURL}";
     `;
     //creating new document
-    const project = window.open('', '_blank');
+    const project = window.open('', '_self');
     project.document.write(responseArray[1]);
 
     //adding css
-    const css = project.document.querySelector('.css');
+    const css = document.querySelector('.css');
     css.innerHTML = responseArray[2];
 
     // adding urlsForJS to main js
@@ -125,12 +122,17 @@ async function  renderProject(responseArray) {
     const sImage = scissorsButton.appendChild(project.document.createElement("img"));
     sImage.src= scissorsImageURL;
     sImage.className= "move-icon";
-    document.close();
+    project.document.close();
 
   }
 // Insert HTML content into the new window
 // Close the document to ensure the content is rendered
 } 
+
+document.addEventListener('DOMContentLoaded', function () {
+  renderProjects()
+})
+
 
 
 // Open a new window
