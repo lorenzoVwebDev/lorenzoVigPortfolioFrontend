@@ -71,7 +71,7 @@ async function  renderProject(responseArray) {
     const project = window.open('', '_blank');
     project.document.write(responseArray[1]);
     const css = project.document.querySelector('.css');
-    console.log(responseArray[2])
+    //console.log(responseArray[2])
     css.innerHTML = responseArray[2];
     const js = project.document.querySelector('.js')
     js.innerHTML = responseArray[3]
