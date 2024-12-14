@@ -1,3 +1,8 @@
+const backEndUrl = 'https://backend.lorenzo-viganego.com/';
+const backEndUrlNoProxy = 'http://172.232.217.98:3000/';
+const localHost = 'http://localhost:3000/';
+const awardSpaceUrl = 'http://lorenzovdev.atwebpages.com/';
+
 export function renderProjects(hrefType) {
   window.location.href+=`?href=${encodeURI(hrefType)}`;
   const url = window.location.href;
@@ -76,11 +81,11 @@ async function  renderProject(responseArray) {
   } else {
     
     //calling images
-    const rockImage = await fetch('http://localhost:3000/projects/rockpaperscissor/rockimage').then((response) => {
+    const rockImage = await fetch(`${backEndUrl}projects/rockpaperscissor/rockimage`).then((response) => {
       return response.blob()})
-    const paperImage = await fetch('http://localhost:3000/projects/rockpaperscissor/paperimage').then((response) => {
+    const paperImage = await fetch(`p${backEndUrl}rojects/rockpaperscissor/paperimage`).then((response) => {
       return response.blob()})
-    const scissorsImage = await fetch('http://localhost:3000/projects/rockpaperscissor/scissorsimage').then((response) => {
+    const scissorsImage = await fetch(`${backEndUrl}projects/rockpaperscissor/scissorsimage`).then((response) => {
       return response.blob()})
     //creating images' URLs
 
