@@ -83,7 +83,7 @@ async function  renderProject(responseArray) {
     //calling images
     const rockImage = await fetch(`${backEndUrl}projects/rockpaperscissor/rockimage`).then((response) => {
       return response.blob()})
-    const paperImage = await fetch(`p${backEndUrl}projects/rockpaperscissor/paperimage`).then((response) => {
+    const paperImage = await fetch(`${backEndUrl}projects/rockpaperscissor/paperimage`).then((response) => {
       return response.blob()})
     const scissorsImage = await fetch(`${backEndUrl}projects/rockpaperscissor/scissorsimage`).then((response) => {
       return response.blob()})
