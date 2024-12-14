@@ -1,0 +1,1 @@
+This portfolio has been entirely developed by. I have combined all my experience in terms of web development in order to create my own portfolio without relying on third parties websites. You can check its repository directly on Git by clicking over here.

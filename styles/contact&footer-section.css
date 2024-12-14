@@ -1,0 +1,65 @@
+/* contact section css */
+
+.contact {
+  background: var(--second-bg-color);
+  width: 100%;
+}
+
+.contact form{
+  text-align: center;
+  max-width: 50rem;
+  margin: 1rem auto;
+  margin-bottom: 3rem;
+/*   cursor: pointer; */
+}
+
+.contact form input, .contact form textarea {
+  width: 100%;
+  color: var(--text-color);
+  background: var(--bg-color);
+  margin-bottom: 0.8rem;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 25px;
+}
+
+.contact form textarea {
+  resize: none;
+}
+
+.formBtn {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.formBtn .btn {
+  cursor: pointer;
+}
+
+/* footer */
+
+footer {
+  padding: 1.5rem 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer p {
+  color: #bdbdbd
+}
+
+footer a{
+  display: inline-flex;
+  justify-content: center;
+  color: var(--text-color);
+  background: var(--hover-color);
+  padding: 0.6rem;
+  border-radius: 5px;
+}
+
+footer a i{
+  font-size: 2rem;
+  color: var(--second-bg-color);
+}
