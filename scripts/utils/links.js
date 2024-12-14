@@ -48,6 +48,7 @@ export function renderProjects(hrefType) {
         getProjects((response) => {
           responseArray.push(response);
           //console.log(responseArray);
+          console.log(responseArray)
           resolve(responseArray)
         }, plainUrlClean+=endpoints[1])
       }, plainUrl+=endpoints[0])
@@ -65,6 +66,7 @@ async function  renderProject(responseArray) {
     const project = window.open('', '_blank');
     project.document.write(responseArray[1]);
     const css = project.document.querySelector('.css');
+    console.log(responseArray[2])
     css.innerHTML = responseArray[2];
     const js = project.document.querySelector('.js')
     js.innerHTML = responseArray[3]
