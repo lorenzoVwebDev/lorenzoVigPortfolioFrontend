@@ -46,8 +46,8 @@ export function renderProjects(hrefType) {
     }, plainUrl);
   }).then((responseArray) => {
     renderProject(responseArray)
-/*     urlParams.searchParams.delete('href')
-    window.location.href = urlParams.href + '#portfolio';  */
+    urlParams.searchParams.delete('href')
+    window.location.href = urlParams.href + '#portfolio'; 
   })
 }
 
