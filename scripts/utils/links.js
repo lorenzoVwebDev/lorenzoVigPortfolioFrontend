@@ -132,7 +132,7 @@ async function  renderProject(responseArray) {
 document.addEventListener('DOMContentLoaded', function () {
   renderProjects()
 })
-
+//hello
 
 
 // Open a new window
