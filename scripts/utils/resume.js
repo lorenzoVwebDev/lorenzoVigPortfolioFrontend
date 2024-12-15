@@ -29,6 +29,4 @@ export function resume() {
   xhr.send();
 }
 
-document.querySelector('.js-cvbutton').addEventListener('click', () => {
-  resume();
-})
+

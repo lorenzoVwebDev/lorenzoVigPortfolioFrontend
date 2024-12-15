@@ -36,7 +36,9 @@ function importContacts() {
     });
   };
 
-document.querySelector('.js-button').addEventListener('click', () => {resume()}) 
+document.querySelector('.js-button').addEventListener('click', () => { 
+  resume()
+}) 
 
 
 importContacts()

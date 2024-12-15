@@ -1,6 +1,8 @@
 import { reloadPage, sendNewContacts } from "../utils/utils.js";
 import { messages, contactsQuery } from "../Data/contactSectiondata.js";
 
+import {resume} from "../utils/resume.js"
+
 function importContacts() {
 
   const contactSection = `
@@ -31,5 +33,9 @@ function importContacts() {
       };
     });
   };
+
+  document.querySelector('.js-cvbutton').addEventListener('click', () => {
+    resume();
+  })
 
 importContacts()

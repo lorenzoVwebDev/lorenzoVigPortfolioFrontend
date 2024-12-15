@@ -13,7 +13,7 @@ function renderProjectsSection() {
       case 'internal':
       return `<a href="./WebProjects/${href}" target="_blank"><i class='bx bx-link-external'></i></a>` ;
       default:
-      return `<a ${href}"><i class='bx bx-link-external'></i></a>`
+      return `<a href="${href}"><i class='bx bx-link-external'></i></a>`
     }
 
   }
