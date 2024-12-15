@@ -35,4 +35,7 @@ function importContacts() {
     });
   };
 
+document.querySelector('.js-button').addEventListener('click', () => {}) 
+
+
 importContacts()
