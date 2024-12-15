@@ -33,7 +33,7 @@ export function sendNewContacts(fun) {
   const lastContacts = JSON.stringify(messages[messages.length - 1])
   console.log(lastContacts)
 
-  xhr.open('POST', `${localHost}contacts/sendcontacts`);
+  xhr.open('POST', `${backEndUrl}contacts/sendcontacts`);
   xhr.setRequestHeader('Content-Type', 'application/json'); 
   xhr.send(lastContacts);
 };
