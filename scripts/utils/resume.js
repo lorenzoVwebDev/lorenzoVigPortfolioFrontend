@@ -1,4 +1,4 @@
-function resume() {
+export function resume() {
   const xhr = new XMLHttpRequest();
 
   xhr.open('GET', 'https://backend.lorenzo-viganego.com/templatesresume/resume', true); 
