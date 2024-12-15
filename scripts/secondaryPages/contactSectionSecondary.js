@@ -1,5 +1,6 @@
 import { reloadPage, saveData, sendNewContacts } from "../utils/utils.js";
 import { messages, contactsQuery } from "../Data/contactSectiondata.js";
+import { resume} from "../utils/resume.js";
 
 function importContacts() {
 
@@ -35,7 +36,7 @@ function importContacts() {
     });
   };
 
-document.querySelector('.js-button').addEventListener('click', () => {}) 
+document.querySelector('.js-button').addEventListener('click', () => {resume()}) 
 
 
 importContacts()
