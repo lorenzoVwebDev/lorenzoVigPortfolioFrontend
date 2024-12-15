@@ -123,7 +123,6 @@ async function  renderProject(responseArray) {
     sImage.src= scissorsImageURL;
     sImage.className= "move-icon";
     project.document.close();
-
   }
 // Insert HTML content into the new window
 // Close the document to ensure the content is rendered
