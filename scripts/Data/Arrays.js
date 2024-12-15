@@ -27,7 +27,7 @@ export let portGallery = [
   }, {
     header: 'Tic-Tac-Toe-Game',
     image: 'tic-tac-toe-game.png',
-    description: 'A simple appearing Tic-Tac-Toe game with an interesting usage of a while loop behind. A useful calculator with a fancy CSS appearance. You can find its code on the "My porfolio BACK-end repository" project.',
+    description: 'A simple looking Tic-Tac-Toe game with an interesting usage of a while loop behind. A useful calculator with a fancy CSS appearance. You can find its code on the "My porfolio BACK-end repository" project.',
     href: `${backEndUrl}projects/tictactoe/`,
     type: 'projects',
     linkType: 'params'
