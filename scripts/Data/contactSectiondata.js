@@ -10,11 +10,11 @@ export class Contact {
   form;
 
   constructor(contactContent) {
-    this.name = contactContent[0].value;
-    this.email = contactContent[1].value;
-    this.address = contactContent[2].value;
-    this.phone = contactContent[3].value;
-    this.message = contactContent[4].value;
+    this.name = contactContent[0];
+    this.email = contactContent[1];
+    this.address = contactContent[2];
+    this.phone = contactContent[3];
+    this.message = contactContent[4];
   };
 
   formCompiled() {
@@ -22,35 +22,33 @@ export class Contact {
   }
 };
 
-export function contactsQuery() {
-  let contactQuery;
-  let form = Array.from(document.querySelectorAll('.js-contact'))
+export function saveData(name, data) {
+  localStorage.setItem(name, JSON.stringify(data))
+}
 
-    for (let i = 0; i < form.length; i++) {
-      if (form[i].value === '') {
+
+export function contactsQuery() {
+  let form = [];
+  document.querySelectorAll('.js-contact').forEach((contact, index) => {
+    form[index] = contact.value;
+  })  
+
+
+
+    for (let i = 0; i < form.length-1; i++) {
+      if (form[i] === '') {
         alert('Please compile each form\'s query');
-        return;
+        return false;
       }
 
       document.getElementById('contact').addEventListener('submit', (event) => {
         event.preventDefault();
       });
     };
-
-    for (let i = 0; i <= form.length; i++) {
-      contactQuery = new Contact(form)
-    };
-
+    console.log(form)
+    const contactQuery = new Contact(form)
     messages.push(contactQuery);
-/*     contactQuery.formCompiled(); */
-
-    return true;
+    saveData('messages', messages)
+    return messages;
 };
  
-/* export function saveData(messages) {
-  localStorage.setItem('messages', JSON.stringify(messages))
-};
- */
-
-
-console.log(messages[messages.length - 1]) 

@@ -1,4 +1,4 @@
-import { reloadPage, saveData, sendNewContacts } from "../utils/utils.js";
+import { reloadPage, sendNewContacts } from "../utils/utils.js";
 import { messages, contactsQuery } from "../Data/contactSectiondata.js";
 
 function importContacts() {
@@ -25,9 +25,7 @@ function importContacts() {
   document.querySelector('.js-submit-contacts').addEventListener('click', () => {
       const boolean = contactsQuery();
       if (boolean) {
-        saveData('messages', messages)
           sendNewContacts(() => {
-            saveData('messages', messages)
             reloadPage();
           })
       };
