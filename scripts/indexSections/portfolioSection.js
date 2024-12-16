@@ -27,6 +27,7 @@ function renderProjectsSection() {
         </div>
         <div class="port-content">
           <h3>${project.header}</h3>
+          ${project.inDevelopment && '<p class="development">PROJECT IN DEVELOPMENT</p>'}
           <p>
             ${project.description}
           </p>

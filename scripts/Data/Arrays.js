@@ -74,7 +74,15 @@ export let portGallery = [
     href: `${awardSpaceUrl}dogApplication/interface-tier/lab.html`,
     type: 'php',
     linkType: 'newtab'
-  },
+  }, {
+    header: 'Login And Subscription',
+    image: 'development.png',
+    description: 'A login/subscription page that request login authorization to the dummy server. It also stores fake contacts into the users.json and check hashed password authenticity',
+    href: `https://lorenzovwebdev.github.io/login-subscription/login-subscription/public/index.html`,
+    type: 'reactprojects',
+    linkType: 'newtab',
+    inDevelopment: true
+  }
 ];
 
 export let templatesGallery = [
