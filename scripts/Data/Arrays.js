@@ -78,9 +78,9 @@ export let portGallery = [
     header: 'Login And Subscription',
     image: 'development.png',
     description: 'A login/subscription page that request login authorization to the dummy server. It also stores fake contacts into the users.json and check hashed password authenticity',
-    href: `https://lorenzovwebdev.github.io/login-subscription/login-subscription/public/index.html`,
+    href: `${backEndUrl}projects/loginpage/`,
     type: 'reactprojects',
-    linkType: 'newtab',
+    linkType: 'params',
     inDevelopment: true
   }
 ];
