@@ -2,10 +2,10 @@
 This is my personal website's frontend side. I am using it mainly as a portfolio and to gather contacts of people interested in a collaboration. I have been developing it since July 2024.  
 ![Features](https://img.shields.io/badge/Features-My%20frontend's%20features-green)
 
-- [MVC enanched to better DOM manipulation/mark creation in html documents](https://github.com/lorenzoVwebDev/lorenzoVigPortfolioFrontend/tree/main/scripts/indexSections).
+- [MVC enanched to do a better DOM manipulation/mark creation in html documents](https://github.com/lorenzoVwebDev/lorenzoVigPortfolioFrontend/tree/main/scripts/indexSections).
 - [Dependency injection to manage page printing from backend's responses](https://github.com/lorenzoVwebDev/lorenzoVigPortfolioFrontend/blob/main/scripts/indexSections/portfolioSection.js)
 - [Algorithm dependecy to print webpages imported from the backend](https://github.com/lorenzoVwebDev/lorenzoVigPortfolioFrontend/blob/main/scripts/utils/links.js)
-- [Class based form compilation to give to the DB handled by the backend](https://github.com/lorenzoVwebDev/lorenzoVigPortfolioFrontend/blob/main/scripts/Data/contactSectiondata.js)
+- [Class based form compilation to give contacts to the DB handled by the backend](https://github.com/lorenzoVwebDev/lorenzoVigPortfolioFrontend/blob/main/scripts/Data/contactSectiondata.js)
 
 # Connect with me
 
