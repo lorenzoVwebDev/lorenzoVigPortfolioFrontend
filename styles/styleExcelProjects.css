@@ -227,6 +227,19 @@ header .download {
 
 }
 
+.port-content button {
+  background: #fff;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border: 2px solid var(--hover-color);
+  outline: 2px solid #fff;
+  cursor: pointer;
+}
+
 .port-content a i{
   font-size: 1.4rem;
   color: var(--second-bg-color)

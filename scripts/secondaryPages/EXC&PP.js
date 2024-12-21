@@ -1,4 +1,5 @@
 import { templatesGallery } from "../Data/Arrays.js";
+import { templates } from "../utils/resume.js"
 
 function renderProjects() {
 let portfolioSectionRender = '';
@@ -15,7 +16,7 @@ templatesGallery.forEach((project) => {
         <p>
           ${project.description}
         </p>
-        <a href="${project.href}" target=""><i class='bx bx-download'></i></i></a>
+        <button class="js-templates-button" data-url="${project.href}"><i class='bx bx-download'></i></button>
       </div>
     </div>
   </div>
@@ -23,6 +24,14 @@ templatesGallery.forEach((project) => {
 });
 
  document.querySelector('.js-projects-gallery').innerHTML = portfolioSectionRender;
+ document.querySelectorAll('.js-templates-button').forEach((button) => {
+
+  button.addEventListener('click', () => {
+    const url = button.dataset.url;
+    console.dir(url)
+    templates(url);
+  })
+ })
 };
 
 renderProjects();
