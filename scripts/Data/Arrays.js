@@ -89,6 +89,14 @@ export let portGallery = [
     href: `https://github.com/lorenzoVwebDev/login-authorization`,
     type: 'node',
     linkType: 'newtab'
+  }, {
+    header: 'Animal cards',
+    image: 'development.png',
+    description: 'An animals\' cards project showing up animals information in a design powered up with bootstrap',
+    href: `${backEndUrl}projects/animalcards/`,
+    type: 'reactprojects',
+    linkType: 'params',
+    inDevelopment: true
   }
 ];
 
