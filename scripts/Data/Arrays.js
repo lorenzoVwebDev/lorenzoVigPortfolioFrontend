@@ -91,12 +91,11 @@ export let portGallery = [
     linkType: 'newtab'
   }, {
     header: 'Animal cards',
-    image: 'development.png',
+    image: 'animals.png',
     description: 'An animals\' cards project showing up animals information in a design powered up with bootstrap',
-    href: `${backEndUrl}projects/animalcards/`,
+    href: `${localHost}projects/animalcards/`,
     type: 'reactprojects',
-    linkType: 'params',
-    inDevelopment: true
+    linkType: 'params'
   }
 ];
 
