@@ -93,7 +93,7 @@ export let portGallery = [
     header: 'Animal cards',
     image: 'animals.png',
     description: 'An animals\' cards project showing up animals information in a design powered up with bootstrap',
-    href: `${localHost}projects/animalcards/`,
+    href: `${backEndUrl}projects/animalcards/`,
     type: 'reactprojects',
     linkType: 'params'
   }
