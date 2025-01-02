@@ -97,7 +97,7 @@ export let portGallery = [
     linkType: 'params'
   },  {
     header: 'E-commerce',
-    image: 'animals.png',
+    image: 'product-page.png',
     description: 'An e-commerce page that uses multiple react features',
     href: `${backEndUrl}projects/productpage/`,
     type: 'reactprojects',

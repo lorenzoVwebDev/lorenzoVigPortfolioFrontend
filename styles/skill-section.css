@@ -88,7 +88,7 @@
    border: 2px solid #f5f5f5;
    position: relative;
  }
- 
+
  .circle .points{
    width: 2px;
    height: 10px;
@@ -132,6 +132,21 @@
    gap: 2rem
  }
  
+ .git-bar {
+  height: 4vh;
+  background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px white;
+  border-radius: 25px;
+  
+ }
+
+ .git-bar > a {
+  color: #f7df1e;
+ }
+
  .port-box {
    position: relative;
    border-radius: 15px;
