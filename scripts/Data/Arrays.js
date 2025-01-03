@@ -99,9 +99,9 @@ export let portGallery = [
     header: 'E-commerce',
     image: 'product-page.png',
     description: 'An e-commerce page that uses multiple react features',
-    href: `${backEndUrl}projects/productpage/`,
+    href: 'https://commerce.lorenzo-viganego.com/index.html',
     type: 'reactprojects',
-    linkType: 'params'
+    linkType: 'newtab'
   }
 ];
 
