@@ -102,6 +102,13 @@ export let portGallery = [
     href: 'https://commerce.lorenzo-viganego.com/index.html',
     type: 'reactprojects',
     linkType: 'newtab'
+  }, {
+    header: 'Salad Maker',
+    image: 'product-page.png',
+    description: 'A Salad Maker project simulating the logic behind adding ingredients on the Glovo website',
+    href: `${backEndUrl}projects/saladmaker/`,
+    type: 'reactprojects',
+    linkType: 'params'
   }
 ];
 
