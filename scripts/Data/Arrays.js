@@ -89,6 +89,13 @@ export let portGallery = [
     type: 'node',
     linkType: 'newtab'
   }, {
+    header: 'Static Files Server',
+    image: 'staticfilesserver.png',
+    description: 'A simple but useful static files server.',
+    href: `https://github.com/lorenzoVwebDev/static-files-server`,
+    type: 'node',
+    linkType: 'newtab'
+  }, {
     header: 'Animal cards',
     image: 'animals.png',
     description: 'An animals\' cards project showing up animals information in a design powered up with bootstrap',
