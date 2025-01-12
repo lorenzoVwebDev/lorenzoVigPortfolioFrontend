@@ -116,6 +116,13 @@ export let portGallery = [
     href: `${backEndUrl}projects/saladmaker/`,
     type: 'reactprojects',
     linkType: 'params'
+  }, {
+    header: 'Text Analyzer',
+    image: 'textanalyzer.png',
+    description: 'A text analyzer that gives the characters and words count as well as offering a character map (how many times a character has been written in the text)',
+    href: `${backEndUrl}projects/textanalyzer/`,
+    type: 'reactprojects',
+    linkType: 'params'
   }
 ];
 
