@@ -40,7 +40,7 @@ export let portGallery = [
     linkType: 'params'
   }, {
     header: 'File Creator',
-    image: 'textanalyzer.png',
+    image: 'filecreator.png',
     description: 'Project In Development ⚠️ A file creator program that allows the client to: define the file\'s extension, write the file content and request how many files he needs',
     href: `${backEndUrl}projects/filecreator/`,
     type: 'reactprojects',
