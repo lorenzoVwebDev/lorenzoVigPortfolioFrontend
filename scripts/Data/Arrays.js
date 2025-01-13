@@ -39,6 +39,13 @@ export let portGallery = [
     type: 'reactprojects',
     linkType: 'params'
   }, {
+    header: 'File Creator',
+    image: 'textanalyzer.png',
+    description: 'Project In Development ⚠️ A file creator program that allows the client to: define the file\'s extension, write the file content and request how many files he needs',
+    href: `${backEndUrl}projects/filecreator/`,
+    type: 'reactprojects',
+    linkType: 'params'
+  }, {
     header: 'Amazon Like Website',
     image: 'amazon-like-project.png',
     description: 'An Amazon-like website that contains Javascript hard-coding such as DOM manipulation via MVC, libraries usage (dayjs), GET requests and POST requests to the backend. You can find its code on the "My porfolio FRONT-end repository." project',
