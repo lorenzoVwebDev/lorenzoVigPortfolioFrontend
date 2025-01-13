@@ -4,6 +4,41 @@ const localHost = 'http://localhost:3000/';
 const awardSpaceUrl = 'http://lorenzovdev.atwebpages.com/';
 export let portGallery = [
   {
+    header: 'Login And Subscription',
+    image: 'loginPage.png',
+    description: 'A login/subscription page that request login authorization to the dummy server. It also stores fake contacts into the users.json and check hashed password authenticity',
+    href: `${backEndUrl}projects/loginpage/`,
+    type: 'reactprojects',
+    linkType: 'params'
+  }, {
+    header: 'Animal cards',
+    image: 'animals.png',
+    description: 'An animals\' cards project showing up animals information in a design powered up with bootstrap',
+    href: `${backEndUrl}projects/animalcards/`,
+    type: 'reactprojects',
+    linkType: 'params'
+  },  {
+    header: 'E-commerce',
+    image: 'product-page.png',
+    description: 'An e-commerce page that uses multiple react features',
+    href: 'https://commerce.lorenzo-viganego.com/index.html',
+    type: 'reactprojects',
+    linkType: 'newtab'
+  }, {
+    header: 'Salad Maker',
+    image: 'saladmaker.png',
+    description: 'A Salad Maker project simulating the logic behind adding ingredients on the Glovo website',
+    href: `${backEndUrl}projects/saladmaker/`,
+    type: 'reactprojects',
+    linkType: 'params'
+  }, {
+    header: 'Text Analyzer',
+    image: 'textanalyzer.png',
+    description: 'A text analyzer that gives the characters and words count as well as offering a character map (how many times a character has been written in the text)',
+    href: `${backEndUrl}projects/textanalyzer/`,
+    type: 'reactprojects',
+    linkType: 'params'
+  }, {
     header: 'Amazon Like Website',
     image: 'amazon-like-project.png',
     description: 'An Amazon-like website that contains Javascript hard-coding such as DOM manipulation via MVC, libraries usage (dayjs), GET requests and POST requests to the backend. You can find its code on the "My porfolio FRONT-end repository." project',
@@ -17,6 +52,20 @@ export let portGallery = [
     href: 'YoutubeLikeWebsite/youtube.html',
     type: 'projects',
     linkType: 'internal'
+  }, {
+    header: 'Authorization Server',
+    image: 'login.png',
+    description: 'An authorization server that checks whether the client credentials are right. MVC using express.Routes() to handle the login authorization and virtual other subscribe/login scripts with just one uri segment....',
+    href: `https://github.com/lorenzoVwebDev/login-authorization`,
+    type: 'node',
+    linkType: 'newtab'
+  }, {
+    header: 'Static Files Server',
+    image: 'staticfilesserver.png',
+    description: 'A simple but useful static files server.',
+    href: `https://github.com/lorenzoVwebDev/static-files-server`,
+    type: 'node',
+    linkType: 'newtab'
   }, {
     header: 'Calculator',
     image: 'calculator.png',
@@ -74,56 +123,7 @@ export let portGallery = [
     href: `${awardSpaceUrl}dogApplication/interface-tier/lab.html`,
     type: 'php',
     linkType: 'newtab'
-  }, {
-    header: 'Login And Subscription',
-    image: 'loginPage.png',
-    description: 'A login/subscription page that request login authorization to the dummy server. It also stores fake contacts into the users.json and check hashed password authenticity',
-    href: `${backEndUrl}projects/loginpage/`,
-    type: 'reactprojects',
-    linkType: 'params'
-  }, {
-    header: 'Authorization Server',
-    image: 'login.png',
-    description: 'An authorization server that checks whether the client credentials are right. MVC using express.Routes() to handle the login authorization and virtual other subscribe/login scripts with just one uri segment....',
-    href: `https://github.com/lorenzoVwebDev/login-authorization`,
-    type: 'node',
-    linkType: 'newtab'
-  }, {
-    header: 'Static Files Server',
-    image: 'staticfilesserver.png',
-    description: 'A simple but useful static files server.',
-    href: `https://github.com/lorenzoVwebDev/static-files-server`,
-    type: 'node',
-    linkType: 'newtab'
-  }, {
-    header: 'Animal cards',
-    image: 'animals.png',
-    description: 'An animals\' cards project showing up animals information in a design powered up with bootstrap',
-    href: `${backEndUrl}projects/animalcards/`,
-    type: 'reactprojects',
-    linkType: 'params'
-  },  {
-    header: 'E-commerce',
-    image: 'product-page.png',
-    description: 'An e-commerce page that uses multiple react features',
-    href: 'https://commerce.lorenzo-viganego.com/index.html',
-    type: 'reactprojects',
-    linkType: 'newtab'
-  }, {
-    header: 'Salad Maker',
-    image: 'saladmaker.png',
-    description: 'A Salad Maker project simulating the logic behind adding ingredients on the Glovo website',
-    href: `${backEndUrl}projects/saladmaker/`,
-    type: 'reactprojects',
-    linkType: 'params'
-  }, {
-    header: 'Text Analyzer',
-    image: 'textanalyzer.png',
-    description: 'A text analyzer that gives the characters and words count as well as offering a character map (how many times a character has been written in the text)',
-    href: `${backEndUrl}projects/textanalyzer/`,
-    type: 'reactprojects',
-    linkType: 'params'
-  }
+  },
 ];
 
 export let templatesGallery = [
