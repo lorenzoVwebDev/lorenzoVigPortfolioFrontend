@@ -35,9 +35,9 @@ export let portGallery = [
     header: 'Salad Maker',
     image: 'saladmaker.png',
     description: 'A Salad Maker project simulating the logic behind adding ingredients on the Glovo website',
-    href: `${backEndUrl}projects/saladmaker/`,
+    href: `https://saladmaker.lorenzo-viganego.com/`,
     type: 'reactprojects',
-    linkType: 'params'
+    linkType: 'newtab'
   }, {
     header: 'Text Analyzer',
     image: 'textanalyzer.png',
