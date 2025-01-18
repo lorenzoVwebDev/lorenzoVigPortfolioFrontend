@@ -25,6 +25,13 @@ export let portGallery = [
     type: 'reactprojects',
     linkType: 'newtab'
   }, {
+    header: 'Redux Birds',
+    image: 'reduxbirds.png',
+    description: '""⚠️Project not Adaptive yet!"" A Project that involves the usage of the redux-library in React. Very useful to manage both states and states\' reducers',
+    href: `${backEndUrl}projects/reduxbirds/`,
+    type: 'reactprojects',
+    linkType: 'params'
+  },{
     header: 'Salad Maker',
     image: 'saladmaker.png',
     description: 'A Salad Maker project simulating the logic behind adding ingredients on the Glovo website',
