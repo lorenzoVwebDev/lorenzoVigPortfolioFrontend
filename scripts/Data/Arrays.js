@@ -137,6 +137,13 @@ export let portGallery = [
     href: `${awardSpaceUrl}dogApplication/interface-tier/lab.html`,
     type: 'php',
     linkType: 'newtab'
+  }, {
+    header: 'Exception Logger',
+    image: 'exceptionlogger.png',
+    description: 'An exception logger backend that manages exception and log a file, you can log the error log file by dividing by 0',
+    href: `https://apachebackend.lorenzo-viganego.com/exceptionlogpr/`,
+    type: 'php',
+    linkType: 'newtab'
   },
 ];
 
