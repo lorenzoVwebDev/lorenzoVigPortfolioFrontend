@@ -133,8 +133,8 @@ export let portGallery = [
   }, {
     header: 'dogCreationEngine',
     image: 'dogApplication.png',
-    description: 'A dog creation engine involving several aspects of developing with php',
-    href: `${awardSpaceUrl}dogApplication/interface-tier/lab.html`,
+    description: '⚠️ "Project In Development" A dog creation engine involving several aspects of developing with php',
+    href: 'https://apachebackend.lorenzo-viganego.com/dogapplication/',
     type: 'php',
     linkType: 'newtab'
   }, {
