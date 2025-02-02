@@ -144,7 +144,14 @@ export let portGallery = [
     href: `https://apachebackend.lorenzo-viganego.com/exceptionlogpr/`,
     type: 'php',
     linkType: 'newtab'
-  },
+  }, {
+    header: 'Logs Table Reader',
+    image: 'logstablereader.png',
+    description: 'A web application based on an mvc framework that is able to log inputs, download log files and SSR a table by reading the log file',
+    href: `https://apachebackend.lorenzo-viganego.com/logs-table-reader-mvc/public/`,
+    type: 'php',
+    linkType: 'newtab'
+  }
 ];
 
 export let templatesGallery = [
