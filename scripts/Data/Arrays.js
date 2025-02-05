@@ -153,7 +153,7 @@ export let portGallery = [
     linkType: 'newtab'
   }, {
     header: 'MVC Dog Application',
-    image: 'images/mvcdogapplication.png',
+    image: 'mvcdogapplication.png',
     description: '⚠️ Project In Development: A simple dog creation engine that involves: MVC approach, Ajax request, Dependecies',
     href: `https://apachebackend.lorenzo-viganego.com/mvc-dog-application/public/`,
     type: 'php',
