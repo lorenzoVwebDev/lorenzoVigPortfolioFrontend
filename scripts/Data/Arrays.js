@@ -151,6 +151,13 @@ export let portGallery = [
     href: `https://apachebackend.lorenzo-viganego.com/logs-table-reader-mvc/public/`,
     type: 'php',
     linkType: 'newtab'
+  }, {
+    header: 'MVC Dog Application',
+    image: 'images/mvcdogapplication.png',
+    description: '⚠️ Project In Development: A simple dog creation engine that involves: MVC approach, Ajax request, Dependecies',
+    href: `https://apachebackend.lorenzo-viganego.com/mvc-dog-application/public/`,
+    type: 'php',
+    linkType: 'newtab'
   }
 ];
 
