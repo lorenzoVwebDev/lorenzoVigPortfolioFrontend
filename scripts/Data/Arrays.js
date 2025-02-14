@@ -102,6 +102,13 @@ export let portGallery = [
     type: 'projects', 
     linkType: 'params'
   }, {
+    header: 'Game Of Life',
+    image: 'gameoflife.png',
+    description: 'The famous John Conway\' game.',
+    href: `https://gameoflife.lorenzo-viganego.com/`,
+    type: 'reactprojects',
+    linkType: 'newtab'
+  }, {
     header: 'To do list',
     image: 'todolist.png',
     description: 'A simple and useful to do list developed with react.',
