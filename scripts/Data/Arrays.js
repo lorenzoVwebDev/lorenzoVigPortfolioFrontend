@@ -168,8 +168,22 @@ export let portGallery = [
   }, {
     header: 'MVC Mailer Form',
     image: 'mailerform.png',
-    description: '⚠️ Project In Development: Project currently works: I am waiting to have linode\'permission to send mail from my backend. A mailer form that you can select what log table you want to receive from; you can even select the log table based on the date selected',
+    description: 'An Mvc framework web application that sends logs on request, just try to enter your email to prove that. Note: Your mail will neither be stored nor used for earning purposes',
     href: `https://apachebackend.lorenzo-viganego.com/mvc-mailer-form/public/`,
+    type: 'php',
+    linkType: 'newtab'
+  }, {
+    header: 'MVC-xml-crud',
+    image: 'xmlcrud.png',
+    description: 'A to do list that manages crud operations based on storing data on xml files',
+    href: `https://apachebackend.lorenzo-viganego.com/mvc-xml-crud/public/`,
+    type: 'php',
+    linkType: 'newtab'
+  }, {
+    header: 'MVC-mysql-crud',
+    image: 'mysqlcrud.png',
+    description: 'A to do list that manages crud operations based on storing data on a local mysql database',
+    href: `https://apachebackend.lorenzo-viganego.com/mvc-mysql-crud/public/`,
     type: 'php',
     linkType: 'newtab'
   }, {
