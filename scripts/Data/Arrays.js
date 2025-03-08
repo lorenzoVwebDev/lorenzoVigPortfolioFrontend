@@ -187,6 +187,13 @@ export let portGallery = [
     type: 'php',
     linkType: 'newtab'
   }, {
+    header: 'MVC login signup',
+    image: 'loginsignup.png',
+    description: 'A complete authentication web app that involves sign up, sign in, tokens usage to give page permissions and also allows to change password',
+    href: `https://apachebackend.lorenzo-viganego.com/mvc-login-signup/public/`,
+    type: 'php',
+    linkType: 'newtab'
+  }, {
     header: 'MVC Framework Template',
     image: 'mvcframeworktemplate.png',
     description: 'The base template (built by me) of my mvc php projects',
