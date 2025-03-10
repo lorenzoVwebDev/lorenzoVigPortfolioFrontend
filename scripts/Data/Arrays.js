@@ -138,6 +138,13 @@ export let portGallery = [
     type: 'excelpowerpoint',
     linkType: 'html'
   }, {
+    header: 'MVC Dog Application',
+    image: 'mvcdogapplication.png',
+    description: '⚠️ Project In Development: A simple dog creation engine that involves: MVC approach, Ajax request, Dependecies',
+    href: `https://apachebackend.lorenzo-viganego.com/mvc-dog-application/public/`,
+    type: 'php',
+    linkType: 'newtab'
+  }, {
     header: 'dogCreationEngine',
     image: 'dogApplication.png',
     description: '⚠️ "Project In Development" A dog creation engine involving several aspects of developing with php',
@@ -156,13 +163,6 @@ export let portGallery = [
     image: 'logstablereader.png',
     description: 'A web application based on an mvc framework that is able to log inputs, download log files and SSR a table by reading the log file',
     href: `https://apachebackend.lorenzo-viganego.com/logs-table-reader-mvc/public/`,
-    type: 'php',
-    linkType: 'newtab'
-  }, {
-    header: 'MVC Dog Application',
-    image: 'mvcdogapplication.png',
-    description: '⚠️ Project In Development: A simple dog creation engine that involves: MVC approach, Ajax request, Dependecies',
-    href: `https://apachebackend.lorenzo-viganego.com/mvc-dog-application/public/`,
     type: 'php',
     linkType: 'newtab'
   }, {
