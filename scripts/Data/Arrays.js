@@ -140,7 +140,7 @@ export let portGallery = [
   }, {
     header: 'MVC Dog Application',
     image: 'mvcdogapplication.png',
-    description: '⚠️ Project In Development: A simple dog creation engine that involves: MVC approach, Ajax request, Dependecies',
+    description: 'A simple dog creation website that allows to create dogs with crud operations based on dedicated mysql tables. Ajax ssr, Authentication (JWT), logs recording, mailer service and more.',
     href: `https://apachebackend.lorenzo-viganego.com/mvc-dog-application/public/`,
     type: 'php',
     linkType: 'newtab'
@@ -189,7 +189,7 @@ export let portGallery = [
   }, {
     header: 'dogCreationEngine',
     image: 'dogApplication.png',
-    description: '⚠️ "Project In Development" A dog creation engine involving several aspects of developing with php',
+    description: 'A dog creation engine involving several aspects of developing with php, the simplest version of the mvc-dog-application project',
     href: 'https://apachebackend.lorenzo-viganego.com/dogapplication/',
     type: 'php',
     linkType: 'newtab'
