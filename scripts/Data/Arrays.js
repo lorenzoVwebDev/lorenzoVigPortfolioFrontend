@@ -145,10 +145,17 @@ export let portGallery = [
     type: 'php',
     linkType: 'newtab'
   }, {
-    header: 'dogCreationEngine',
-    image: 'dogApplication.png',
-    description: '⚠️ "Project In Development" A dog creation engine involving several aspects of developing with php',
-    href: 'https://apachebackend.lorenzo-viganego.com/dogapplication/',
+    header: 'MVC login signup',
+    image: 'loginsignup.png',
+    description: 'A complete authentication web app that involves sign up, sign in, tokens usage to give page permissions and also allows to change password',
+    href: `https://apachebackend.lorenzo-viganego.com/mvc-login-signup/public/`,
+    type: 'php',
+    linkType: 'newtab'
+  }, {
+    header: 'MVC-mysql-crud',
+    image: 'mysqlcrud.png',
+    description: 'A to do list that manages crud operations based on storing data on a local mysql database',
+    href: `https://apachebackend.lorenzo-viganego.com/mvc-mysql-crud/public/`,
     type: 'php',
     linkType: 'newtab'
   }, {
@@ -180,17 +187,10 @@ export let portGallery = [
     type: 'php',
     linkType: 'newtab'
   }, {
-    header: 'MVC-mysql-crud',
-    image: 'mysqlcrud.png',
-    description: 'A to do list that manages crud operations based on storing data on a local mysql database',
-    href: `https://apachebackend.lorenzo-viganego.com/mvc-mysql-crud/public/`,
-    type: 'php',
-    linkType: 'newtab'
-  }, {
-    header: 'MVC login signup',
-    image: 'loginsignup.png',
-    description: 'A complete authentication web app that involves sign up, sign in, tokens usage to give page permissions and also allows to change password',
-    href: `https://apachebackend.lorenzo-viganego.com/mvc-login-signup/public/`,
+    header: 'dogCreationEngine',
+    image: 'dogApplication.png',
+    description: '⚠️ "Project In Development" A dog creation engine involving several aspects of developing with php',
+    href: 'https://apachebackend.lorenzo-viganego.com/dogapplication/',
     type: 'php',
     linkType: 'newtab'
   }, {
