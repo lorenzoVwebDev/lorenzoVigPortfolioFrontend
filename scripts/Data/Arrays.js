@@ -81,6 +81,13 @@ export let portGallery = [
     type: 'node',
     linkType: 'newtab'
   }, {
+    header: 'node-logs-creator',
+    image: 'logscreator.png',
+    description: 'A node logs creator, mvc framework backend structure',
+    href: 'https://github.com/lorenzoVwebDev/node-logs-creator',
+    type: 'node',
+    linkType: 'newtab'
+  }, {
     header: 'Calculator',
     image: 'calculator.png',
     description: 'A useful calculator with a fancy CSS appearance. You can find its code on the "My porfolio BACK-end repository" project.',
