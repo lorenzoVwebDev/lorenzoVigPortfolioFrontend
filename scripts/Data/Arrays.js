@@ -104,7 +104,7 @@ export let portGallery = [
     linkType: 'newtab'
   }, {
     header: 'mvc-error-handling',
-    image: 'mvccors.png',
+    image: 'errorhandling.png',
     description: 'A node web server based on MVC that serves log files and set the allowed origins/headers for CORS. It includes the error handling middleware at the end of the chain.',
     href: 'https://github.com/lorenzoVwebDev/mvc-error-handling',
     type: 'node',
