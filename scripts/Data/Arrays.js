@@ -67,6 +67,14 @@ export let portGallery = [
     type: 'projects',
     linkType: 'internal'
   }, {
+    header: 'My portfolio back-end repository',
+    image: 'backend.png',
+    description: 'I decided to build both my portolio and its own backend in order to become proficient in terms of full stack web development. You can check on Git for more information about it....',
+    href: 'https://github.com/lorenzoVwebDev/PortfolioBackend.git',
+    type: 'node',
+    linkType: 'newtab'
+
+  }, {
     header: 'Authorization Server',
     image: 'login.png',
     description: 'An authorization server that checks whether the client credentials are right. MVC using express.Routes() to handle the login authorization and virtual other subscribe/login scripts with just one uri segment....',
@@ -81,13 +89,20 @@ export let portGallery = [
     type: 'node',
     linkType: 'newtab'
   }, {
-    header: 'node-logs-creator',
+    header: 'mvc-node-logs-creator',
     image: 'logscreator.png',
-    description: 'A node logs creator, mvc framework backend structure',
+    description: ' A node web server based on MVC that serves log files and set the allowed origins/headers for CORS.',
     href: 'https://github.com/lorenzoVwebDev/node-logs-creator',
     type: 'node',
     linkType: 'newtab'
   }, {
+    header: 'mvc-CORS-authorization',
+    image: 'mvccors.png',
+    description: 'A node logs creator, mvc framework backend structure',
+    href: 'https://github.com/lorenzoVwebDev/mvc-CORS-authorization',
+    type: 'node',
+    linkType: 'newtab'
+  },{
     header: 'Calculator',
     image: 'calculator.png',
     description: 'A useful calculator with a fancy CSS appearance. You can find its code on the "My porfolio BACK-end repository" project.',
@@ -129,14 +144,6 @@ export let portGallery = [
     href: 'https://github.com/lorenzoVwebDev/lorenzoVigPortfolioFrontend.git',
     type: 'projects',
     linkType: 'newtab'
-  }, {
-    header: 'My portfolio back-end repository',
-    image: 'backend.png',
-    description: 'I decided to build both my portolio and its own backend in order to become proficient in terms of full stack web development. You can check on Git for more information about it....',
-    href: 'https://github.com/lorenzoVwebDev/PortfolioBackend.git',
-    type: 'node',
-    linkType: 'newtab'
-
   }, {
     header: 'Microsoft 365 Templates',
     image: 'microsoft.png',
