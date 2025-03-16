@@ -53,7 +53,7 @@ export let portGallery = [
     type: 'reactprojects',
     linkType: 'params'
   }, {
-    header: 'Amazon Like Website',
+    header: 'Final Project-Amazon Like Website',
     image: 'amazon-like-project.png',
     description: 'An Amazon-like website that contains Javascript hard-coding such as DOM manipulation via MVC, libraries usage (dayjs), GET requests and POST requests to the backend. You can find its code on the "My porfolio FRONT-end repository." project',
     href: 'AmazonLikeWebsite/amazon.html',
@@ -152,7 +152,7 @@ export let portGallery = [
     type: 'excelpowerpoint',
     linkType: 'html'
   }, {
-    header: 'MVC Dog Application',
+    header: 'Final Project-MVC Dog Application',
     image: 'mvcdogapplication.png',
     description: 'A simple dog creation website that allows to create dogs with crud operations based on dedicated mysql tables. Ajax ssr, Authentication (JWT), logs recording, mailer service and more.',
     href: `https://apachebackend.lorenzo-viganego.com/mvc-dog-application/public/`,
