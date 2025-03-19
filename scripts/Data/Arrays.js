@@ -78,7 +78,7 @@ export let portGallery = [
     header: 'mvc-employees-crud',
     image: 'employeesmysql.png',
     description: 'A node web server based on MVC that serves log files and set the allowed origins/headers for CORS. It includes the error handling middleware at the end of the chain. It also performs api crud operations on the employees mysql table',
-    href: `https://github.com/lorenzoVwebDev/mvc-users-crud`,
+    href: `https://github.com/lorenzoVwebDev/mvc-employees-crud`,
     type: 'node',
     linkType: 'newtab'
   }, {
