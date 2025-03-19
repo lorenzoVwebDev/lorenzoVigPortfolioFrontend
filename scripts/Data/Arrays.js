@@ -75,6 +75,13 @@ export let portGallery = [
     linkType: 'newtab'
 
   }, {
+    header: 'mvc-employees-crud',
+    image: 'employeesmysql.png',
+    description: 'A node web server based on MVC that serves log files and set the allowed origins/headers for CORS. It includes the error handling middleware at the end of the chain. It also performs api crud operations on the employees mysql table',
+    href: `https://github.com/lorenzoVwebDev/mvc-users-crud`,
+    type: 'node',
+    linkType: 'newtab'
+  }, {
     header: 'Authorization Server',
     image: 'login.png',
     description: 'An authorization server that checks whether the client credentials are right. MVC using express.Routes() to handle the login authorization and virtual other subscribe/login scripts with just one uri segment....',
