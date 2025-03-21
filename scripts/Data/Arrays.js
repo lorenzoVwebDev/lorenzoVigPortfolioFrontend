@@ -75,6 +75,13 @@ export let portGallery = [
     linkType: 'newtab'
 
   }, {
+    header: 'mvc-signup-signin',
+    image: 'authorization.png',
+    description: 'A node web server based on MVC that serves log files and set the allowed origins/headers for CORS. It includes the error handling middleware at the end of the chain. It also performs api crud operations on the employees mysql table. Sign Up, sign in, log out and change password mvc for a complete authorization app. Enhanced with jwt delivering and verification',
+    href: `https://github.com/lorenzoVwebDev/express-mvc-signup-signin`,
+    type: 'node',
+    linkType: 'newtab'
+  }, {
     header: 'mvc-employees-crud',
     image: 'employeesmysql.png',
     description: 'A node web server based on MVC that serves log files and set the allowed origins/headers for CORS. It includes the error handling middleware at the end of the chain. It also performs api crud operations on the employees mysql table',
