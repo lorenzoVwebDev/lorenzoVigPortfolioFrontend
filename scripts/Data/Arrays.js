@@ -73,18 +73,24 @@ export let portGallery = [
     href: 'https://github.com/lorenzoVwebDev/PortfolioBackend.git',
     type: 'node',
     linkType: 'newtab'
-
   }, {
-    header: 'mvc-user-roles (Mysql)',
+    header: 'Final Project (MongoDB) - mvc-user-roles',
+    image: 'mongo.png',
+    description: 'A node web server based on MVC that serves log files and set the allowed origins/headers for CORS. It includes the error handling middleware at the end of the chain. It also performs api crud operations on the employees with a MongoDB database. Sign Up, sign in, log out and change password ......',
+    href: `https://github.com/lorenzoVwebDev/express-mvc-mongo-db`,
+    type: 'node',
+    linkType: 'newtab'
+  }, {
+    header: 'Final Project (Mysql) - mvc-user-roles',
     image: 'noderoles.png',
-    description: 'A node web server based on MVC that serves log files and set the allowed origins/headers for CORS. It includes the error handling middleware at the end of the chain. It also performs api crud operations on the employees mysql table. Sign Up, sign in, log out and change password mvc for a complete authorization app. Enhanced with jwt delivering and verification. User roles definition in sign up and roles verification with verifyRoles.js middleware. Roles definition into tokens.',
+    description: 'A node web server based on MVC that serves log files and set the allowed origins/headers for CORS. It includes the error handling middleware at the end of the chain. It also performs api crud operations on the employees mysql table. Sign Up, sign in, log out and change password mvc for a ....',
     href: `https://github.com/lorenzoVwebDev/mvc-user-roles`,
     type: 'node',
     linkType: 'newtab'
   }, {
     header: 'mvc-signup-signin (Mysql)',
     image: 'authorization.png',
-    description: 'A node web server based on MVC that serves log files and set the allowed origins/headers for CORS. It includes the error handling middleware at the end of the chain. It also performs api crud operations on the employees mysql table. Sign Up, sign in, log out and change password mvc for a complete authorization app. Enhanced with jwt delivering and verification',
+    description: 'A node web server based on MVC that serves log files and set the allowed origins/headers for CORS. It includes the error handling middleware at the end of the chain. It also performs api crud operations on the employees mysql table. Sign Up, sign in.....',
     href: `https://github.com/lorenzoVwebDev/express-mvc-signup-signin`,
     type: 'node',
     linkType: 'newtab'
