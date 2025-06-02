@@ -248,6 +248,13 @@ export let portGallery = [
     href: `https://github.com/lorenzoVwebDev/mvc-framework-template`,
     type: 'php',
     linkType: 'newtab'
+  }, {
+    header: 'ToDoList angular',
+    image: 'mvcframeworktemplate.png',
+    description: 'Classic toDoList project that covers almost all of the angular essentials',
+    href: `https://todolist.lorenzo-viganego.com/`,
+    type: 'angular',
+    linkType: 'newtab'
   }
 ];
 
