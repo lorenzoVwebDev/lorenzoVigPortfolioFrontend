@@ -250,9 +250,16 @@ export let portGallery = [
     linkType: 'newtab'
   }, {
     header: 'ToDoList angular',
-    image: 'mvcframeworktemplate.png',
+    image: 'https://f.hubspotusercontent40.net/hubfs/5621549/Angular-Todo-List-Tutorial-png-1.png',
     description: 'Classic toDoList project that covers almost all of the angular essentials',
     href: `https://todolist.lorenzo-viganego.com/`,
+    type: 'angular',
+    linkType: 'newtab'
+  }, {
+    header: 'responsiveMenu angular',
+    image: 'https://abduldev.com/wp-content/uploads/2025/01/Responsive-Sidebar-Menu-in-HTML-CSS-JS-LightDark-Mode-1024x576.jpg',
+    description: 'Classic toDoList project that covers almost all of the angular essentials',
+    href: `https://responsivemenu.lorenzo-viganego.com/`,
     type: 'angular',
     linkType: 'newtab'
   }
