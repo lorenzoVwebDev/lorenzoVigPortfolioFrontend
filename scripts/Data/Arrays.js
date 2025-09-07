@@ -315,7 +315,7 @@ export const jobsDone = [
     icon: 'bx-code-alt service-icon',
     href: './jobexperience.html'
   }, {
-    name: 'Energetic advicer',
+    name: 'Energetic advicer (Customer Care)',
     slightDescription: 'I worked in the energy sector for about two years. This former experience allowed me to undertake many different paths in almost all the different departments related to the energy sector. Mainly, I worked in the SSD addressing issues department....',
     description: 'I worked in the energy sector for about two years. This former experience allowed me to undertake many different paths in almost all the different departments related to the energy sector. Mainly, I worked in the SSD addressing issues department, which was related to addressing issues derived from mistakes during the bank periodic payment alignment. I was in charge as the team coordinator, and my main responsibility was to weekly report the data about revenues and outcomes in terms of SSD per client retrieved to the client\'s account managers. Anyway, my superiors put me in many other departments, such as the customer service mail department, SDI retrieval, selling, crossselling, upselling, and others.',
     image: '2.png',
